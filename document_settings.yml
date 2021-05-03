@@ -1,11 +1,11 @@
 document:
-  name: Linee Guida Tecnologie e standard sicurezza API
+  name: Linee guida per accesso telematico ai servizi della Pubblica Amministrazione
 
   description:
-      Linee Guida Tecnologie e standard per la sicurezza 
-      dell'interoperabilità tramite API dei sistemi informatici
+      Linee guida per accesso telematico ai servizi della Pubblica Amministrazione
+
   tags:
-    - sicurezza
+    - accesso ai servizi
     - interoperabilità
     - API
     - linee guida
