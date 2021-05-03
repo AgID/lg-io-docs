@@ -154,5 +154,5 @@ disposizioni di legge, anche in materia tributaria da parte delle
 pubbliche amministrazioni. 
 
 .. forum_italia::
-  :topic_id: 22254
+  :topic_id: 23490
   :scope: document

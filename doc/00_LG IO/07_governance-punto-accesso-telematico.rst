@@ -506,5 +506,5 @@ tra il momento della segnalazione e la presa in carico della stessa da
 parte del Soggetto erogatore.
 
 .. forum_italia::
-  :topic_id: 22262
+  :topic_id: 23486
   :scope: document

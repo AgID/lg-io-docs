@@ -166,5 +166,5 @@ ad AgID che, a valle delle verifiche di merito, valuta l'aggiornamento
 dell’allegato 2.
 
 .. forum_italia::
-   :topic_id: 22259
+   :topic_id: 23485
    :scope: document

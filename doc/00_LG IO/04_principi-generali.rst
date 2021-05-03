@@ -93,5 +93,5 @@ emanate da AgID ai sensi dell’articolo 71 del CAD, e nello specifico
 delle [LG INTEROP TEC] e [LG SICUREZZA]. 
 
 .. forum_italia::
-    :topic_id: 22257
+    :topic_id: 23483
     :scope: document

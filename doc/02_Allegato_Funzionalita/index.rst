@@ -151,5 +151,5 @@ Infine, con la funzione “profilo” l’utente potrà:
 - chiedere la sospensione dell’account o la cancellazione dello stesso.
 
 .. forum_italia::
-  :topic_id: 22254
+  :topic_id: 23489
   :scope: document

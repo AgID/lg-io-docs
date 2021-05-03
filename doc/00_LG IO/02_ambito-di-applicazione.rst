@@ -28,5 +28,5 @@ accesso telematico attivato presso la Presidenza del Consiglio dei
 Ministri.
 
 .. forum_italia::
-   :topic_id: 22255
+   :topic_id: 23481
    :scope: document

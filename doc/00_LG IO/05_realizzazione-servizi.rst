@@ -207,5 +207,5 @@ INFORMATICI NELLE PUBBLICHE AMMINISTRAZIONI” del CAD attuando le
 [LG OPEN SOURCE].
 
 .. forum_italia::
-       :topic_id: 22258
+       :topic_id: 23484
        :scope: document

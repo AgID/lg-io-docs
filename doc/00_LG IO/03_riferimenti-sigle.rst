@@ -261,5 +261,5 @@ utilizzati nelle presenti Linee guida:
      -    La piattaforma di cui all’art. 5, comma 2 del CAD
  
 .. forum_italia::
-   :topic_id: 22256
+   :topic_id: 23482
    :scope: document

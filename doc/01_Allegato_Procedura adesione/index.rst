@@ -98,5 +98,5 @@ rispetto delle specifiche tecniche di integrazione definite dal Gestore
 nella Documentazione API.
 
 .. forum_italia::
-   :topic_id: 22254
+   :topic_id: 23488
    :scope: document

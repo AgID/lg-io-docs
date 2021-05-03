@@ -42,5 +42,5 @@ del Punto di accesso telematico.
 
 
 .. forum_italia::
-  :topic_id: 22254
+  :topic_id: 23491
   :scope: document
