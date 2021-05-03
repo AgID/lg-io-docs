@@ -118,8 +118,8 @@ di impostare alcune scelte di carattere generale che risultano
 trasversali all’erogazione dei Servizi e che verranno usate per 
 personalizzare il servizio erogato all’utente da parte del Gestore e 
 dei Soggetti erogatori. Alcune di queste scelte, una volta effettuate 
-dall’utente, potranno essere interrogate e utilizzate in tempo reale
- dai Soggetti erogatori.
+dall’utente, potranno essere interrogate e utilizzate in tempo reale 
+dai Soggetti erogatori.
 
 Di seguito, si riportano a titolo di esempio alcune preferenze che 
 potranno essere definite dell’utente:
