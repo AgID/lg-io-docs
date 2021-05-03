@@ -4,8 +4,7 @@ Istruzioni per la consultazione pubblica
 Informazioni sulla consultazione
 ================================
 
--  **Durata della consultazione:** dal <START_DATE> al <END_DATE>
-
+-  **Durata della consultazione:** dal 03/05/2021 al 02/06/2021
 -  **Settore:** ICT
 
 Esiti della consultazione
@@ -53,7 +52,7 @@ Punto di accesso telematico di cui all’articolo 64-bis del CAD, individua:
 Come partecipare
 ================
 
-Le Linee Guida sono pubblicate su `Docs Italia <https://docs.italia.it/xxxxxxx>`_ 
-ed è possibile commentarle su `Forum Italia <https://forum.italia.it/xxxxxx>`_.
+Le Linee Guida sono pubblicate su `Docs Italia <https://docs.italia.it/docs/lg-io-docs/it/bozza/>`_ 
+ed è possibile commentarle su `Forum Italia <https://forum.italia.it/c/documenti-in-consultazione/lg-per-accesso-telematico-ai-servizi-della-pa/82>`_.
 
-È possibile inviare i propri commenti fino a <END_DATE>.
+È possibile inviare i propri commenti fino a 02/06/2021.
