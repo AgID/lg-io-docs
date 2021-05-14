@@ -63,7 +63,7 @@ Servizi in rete tramite il Punto di accesso telematico.
 La messa a disposizione di Servizi in rete per il tramite del Punto di 
 accesso telematico è obbligatoria per i soggetti di cui all'articolo 2, 
 comma 2 del CAD, salvo comprovati impedimenti di natura tecnologica 
-attestati dal Gestore ai sensi dell’articolo 64, comma 1-ter del CAD. 
+attestati dal Gestore ai sensi dell’articolo 64-bis, comma 1-ter del CAD. 
 E’ fatta salva la possibilità di rendere fruibili i propri Servizi in 
 rete anche per il tramite di altri canali, i quali DOVREBBERO essere 
 progettati e sviluppati tenendo in considerazione l’obbligo di garantire 
