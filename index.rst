@@ -4,7 +4,7 @@ Linee guida per accesso telematico ai servizi della Pubblica Amministrazione
 .. admonition:: Consultazione pubblica
 
    La consultazione pubblica per questo documento è attiva dal 
-   03/05/2021 al 02/06/2021.
+   03/05/2021 al 03/06/2021.
 
 Questo documento raccoglie il testo delle *Linee guida per accesso 
 telematico ai servizi della Pubblica Amministrazione*, e i relativi 
