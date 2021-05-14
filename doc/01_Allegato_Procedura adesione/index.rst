@@ -22,7 +22,7 @@ In particolare, il perfezionamento dell’accordo di adesione e la
 comunicazione al Gestore dei soggetti delegati dal Soggetto erogatore 
 a operare nel Punto di accesso telematico per suo conto avvengono 
 secondo il seguente processo, salvo i casi di accordi di cui all’ultimo 
-periodo del 6.1 Adesione al Punto di accesso telematico dei Soggetti 
+periodo del 7.1 Adesione al Punto di accesso telematico dei Soggetti 
 erogatori.
 
 Il processo per il perfezionamento dell’accordo di adesione consta 
@@ -32,7 +32,7 @@ delle seguenti azioni:
    e dichiara di appartenere a un determinato ente.
 2. il Portale invia una comunicazione alla PEC dell’ente con:
 
-   - la contrattualistica standard di cui al 6.1 Adesione al Punto di 
+   - la contrattualistica standard di cui al 7.1 Adesione al Punto di 
      accesso telematico dei Soggetti erogatori
    - un link per perfezionare il predetto accordo;
    - il nominativo e codice fiscale della persona di cui al punto 1 

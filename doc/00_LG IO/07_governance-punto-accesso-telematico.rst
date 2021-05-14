@@ -9,7 +9,7 @@ l’onboarding dei Soggetti erogatori in tempi rapidi e con modalità
 efficienti per garantire agli utenti finali l’accesso a un numero 
 crescente di Servizi in rete, e a tal fine valuta, di concerto con i 
 soggetti coinvolti, l’adesione da parte di Pubbliche Amministrazioni 
-in forma aggregata ai sensi del 6.1.2 Soggetti aggregatori, nonché 
+in forma aggregata ai sensi del 7.1.2 Soggetti aggregatori, nonché 
 l’opportunità di avvalersi di partner tecnologici comuni a più 
 Soggetti erogatori. 
 
@@ -26,7 +26,7 @@ adesione contenente almeno i seguenti allegati:
 - l’accordo per il trattamento dei dati personali, contenente la 
   nomina a responsabile del Gestore (“DPA”);
 - l’elenco dei soggetti aggregati (compilato solo ove il Soggetto 
-  erogatore sia aggregatore di altre PA ai sensi del 6.1.2 Soggetti 
+  erogatore sia aggregatore di altre PA ai sensi del 7.1.2 Soggetti 
   aggregatori);
 - i termini aggiuntivi applicabili ai Moduli attivati alla data di 
   adesione.
@@ -47,11 +47,10 @@ Soggetti singoli
 Per l’erogazione dei Servizi, i Soggetti erogatori DEVONO:
 
 - identificare le tipologie di Servizi in rete che intendono erogare, 
-  in conformità al 6.2 Selezione dei Servizi in rete realizzati dal 
-  Punto di accesso telematico;
+  in conformità al 7.2. Selezione e sviluppo dei Servizi in rete;
 - attivare la procedura di adesione, sottoscrivendo la relativa 
   documentazione contrattuale applicabile, come descritto in premessa 
-  al 6.1 Adesione al Punto di accesso telematico dei Soggetti erogatori;
+  al 7.1 Adesione al Punto di accesso telematico dei Soggetti erogatori;
 - prendere visione della documentazione correlata al rapporto di 
   adesione al Punto di accesso telematico, con particolare riferimento 
   alle specifiche per l’integrazione tecnologica contenute nella 
@@ -59,8 +58,8 @@ Per l’erogazione dei Servizi, i Soggetti erogatori DEVONO:
 - predisporre l’integrazione tra i Sistemi degli enti e il Punto di 
   accesso per il tramite delle API indicate nella Documentazione API 
   previa registrazione al Portale e configurazione dei Servizi in rete; 
-- eseguire con esito positivo le attività di test ai sensi del 6.2.4 
-  Verifica e test dei Servizi in rete;
+- eseguire con esito positivo le attività di test ai sensi del 7.2.3 Verifica 
+  e test dei Servizi in rete;
 - inserire l’anagrafica completa che descrive ciascun Servizio in rete 
   e procedere alla sua attivazione. 
 
@@ -165,7 +164,7 @@ erogatore per determinare le reciproche responsabilità al fine di
 assicurare la messa in esercizio del Servizio in rete.
 
 Nella fattispecie di implementazione di un Servizi in rete presente nel 
-catalogo di cui al 6.2.1.1 Catalogo delle tipologie di Servizi in rete 
+catalogo di cui al 7.2.1.1 Catalogo delle tipologie di Servizi in rete 
 il Gestore definisce un template di piano di lavoro che il Soggetto 
 erogatore DEVE compilare e condividere con il Gestore stesso. 
 
@@ -305,7 +304,7 @@ tempi di risposta certi alle segnalazione ricevute.
 I Soggetti erogatori, tramite i propri canali istituzionali, e il Gestore, 
 tramite apposito sistema di feedback, DEVONO rispondere prontamente 
 alle richieste degli utenti finali nel rispetto degli indicatori di 
-qualità di cui 6.4.4 Indicatori dei servizi di supporto.
+qualità di cui 7.4.4 Indicatori dei servizi di supporto.
 
 I Soggetti erogatori e il Gestore, per le parti di rispettiva competenza, 
 DEVONO altresì svolgere attività di ricerca e coinvolgimento degli utenti 

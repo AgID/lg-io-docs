@@ -54,7 +54,7 @@ informazioni già comunicate dal cittadino e dalle imprese, attraverso
 l’integrazione con le piattaforme previste dal CAD oggetto del successivo 
 5.2 Integrazione piattaforme previste dal CAD, nel rispetto delle norme 
 in materia di protezione dei dati, e in particolare dei principi di 
-necessità e proporzionalità del trattamento di cui al 7.3 Misure di 
+necessità e proporzionalità del trattamento di cui al 8.3 Misure di 
 garanzia per le particolari categorie di dati, in modo che sui 
 cittadini e sulle imprese non ricadano oneri aggiuntivi. 
 
@@ -80,7 +80,7 @@ informazioni e delle preferenze dei singoli utenti al fine di poterle
 riutilizzare nell’erogazione dei Servizi in rete , nel rispetto della 
 normativa in materia di protezione dei dati personali e, con riferimento 
 alle particolari categorie di dati personali, delle misure previste 
-dal 7.3 Misure di garanzia per le particolari categorie di dati.
+dal 8.3 Misure di garanzia per le particolari categorie di dati.
 
 Il Gestore e i Soggetti erogatori DEVONO assicurare che le fasi di 
 progettazione, sviluppo, test e messa in esercizio dei Servizi in rete 
@@ -162,8 +162,7 @@ il Gestore con le modalità seguenti:
   23 giugno 2021.
 - **Meccanismo di feedback**: viene garantito dai Soggetti erogatori 
   tramite i propri canali istituzionali, e dal Gestore tramite il 
-  sistema di feedback di cui al 5.3.5 Gestione feedback degli utenti 
-  finali.
+  sistema di feedback. 
 - **Obiettivi di accessibilità**: i Soggetti erogatori dichiarano 
   l’obiettivo di offrire i Servizi tramite IO in modalità accessibile 
   entro il 31 marzo dell’anno successivo all’adesione.
@@ -171,7 +170,7 @@ il Gestore con le modalità seguenti:
 I Soggetti erogatori e il Gestore DEVONO garantire in ogni caso la 
 riservatezza delle informazioni relative all’utilizzo dei Servizi in 
 rete da parte dei singoli cittadini, anche in conformità alle misure 
-di cui al 7.3 Misure di garanzia per le particolari categorie di dati.
+di cui al 8.3 Misure di garanzia per le particolari categorie di dati.
 
 Open source, sviluppo collaborativo e riuso
 -------------------------------------------
@@ -179,21 +178,21 @@ Lo sviluppo del Punto di accesso telematico da parte del Gestore
 privilegia lo sviluppo collaborativo e la standardizzazione tecnologica, 
 anche attraverso l’implementazione dei processi di sviluppo e standard 
 aperti e partecipati di cui alle linee guida applicabili emanate ai 
-sensi dell’articolo 71 del CAD (vedi 2.4 Linee guida di riferimento).
+sensi dell’articolo 71 del CAD (vedi 3.4 Linee guida di riferimento).
 
 Le componenti software rese pubbliche dal Gestore (es. API e codice 
 sorgente) permettono di proporre integrazioni e miglioramenti ai moduli 
 a partire dal codice condiviso, e allo stesso tempo l’utente finale ha 
-la possibilità, tramite il sistema di feedback di cui al 5.3.5 Gestione 
-feedback degli utenti finali, di comunicare al Gestore la sua opinione 
-rispetto alla sua esperienza nell’uso del Punto di accesso telematico. 
+la possibilità, tramite il sistema di feedback, di comunicare al Gestore 
+la sua opinione rispetto alla sua esperienza nell’uso del Punto di accesso 
+telematico. 
 Il Gestore permette lo sviluppo collaborativo da parte dei Soggetti 
 erogatori sui moduli implementati e conserva piena discrezionalità 
 quanto alla revisione e integrazione nel codice sorgente delle modifiche 
 proposte.
 
 La standardizzazione tecnologica, nel rispetto delle linee guida applicabili 
-emanate ai sensi dell’articolo 71 del CAD (vedi 2.4 Linee guida di riferimento), 
+emanate ai sensi dell’articolo 71 del CAD (vedi 3.4 Linee guida di riferimento), 
 implica che i moduli devono essere sviluppati in modo da garantire: 
 
 - il massimo grado di riuso da parte dei Soggetti erogatori, evitando 

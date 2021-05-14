@@ -27,7 +27,7 @@ propri Servizi in rete tramite i canali messi a disposizione dal
 Gestore. 
 
 L’utente finale deve poter accedere al Punto di accesso telematico 
-tramite un'interfaccia disponibile in versione mobile (v. anche 4.2 
+tramite un'interfaccia disponibile in versione mobile (vedi anche 5.2 
 Obiettivi di semplificazione e principio di “once-only” e “mobile-first”) 
 e DOVREBBE poter accedere tramite un’interfaccia versione web, nonché 
 tramite altri canali individuati dal Gestore.

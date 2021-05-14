@@ -152,7 +152,7 @@ digitali e i prestatori dei servizi fiduciari qualificati definiscono
 i livelli di qualità dei servizi resi disponibili al Punto di accesso 
 telematico in accordo con il Gestore e assicurano il rispetto degli 
 stessi. I livelli di qualità sono definiti a partire dagli indicatori 
-di qualità indicati al successivo paragrafo 6.5 Indicatori di qualità.
+di qualità indicati al successivo paragrafo 7.4 Indicatori di qualità.
 
 Funzionalità del Punto di accesso telematico
 --------------------------------------------

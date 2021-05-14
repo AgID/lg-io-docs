@@ -99,7 +99,7 @@ di accesso telematico, questi DEVONO:
 
 - individuare le particolari categorie di dati indispensabili 
   all’erogazione del Servizio tramite IO, secondo quanto previsto dal 
-  precedente 7.1 Misure minime per l’erogazione di Servizi in rete;
+  precedente 8.1 Misure minime per l’erogazione di Servizi in rete;
 - darne informazione al Gestore;
 - non comunicare tali particolari categorie di dati nell’oggetto del 
   messaggio;
@@ -130,7 +130,7 @@ propri Servizi in rete, DEVONO:
   e la base giuridica;
 - assicurarsi che l’informativa privacy che verrà messa a disposizione 
   degli interessati rispecchi l’effettivo trattamento che verrà 
-  effettuato tramite l’App IO, come specificato al 7.4.4 Trasparenza e 
+  effettuato tramite l’App IO, come specificato al 8.4.4 Trasparenza e 
   rispetto dell’esercizio dei diritti degli utenti finali. 
 
 In particolare, i Soggetti erogatori DEVONO:
@@ -157,7 +157,7 @@ In particolare, i Soggetti erogatori DEVONO:
 - limitare la trasmissione di documenti elettronici contenenti dati 
   personali allo stretto necessario;
 - adempiere gli obblighi informativi previsti dal GDPR, come specificato 
-  al 7.4.4 Trasparenza e rispetto dell’esercizio dei diritti degli utenti finali
+  al 8.4.4 Trasparenza e rispetto dell’esercizio dei diritti degli utenti finali
 
 Limitazione dei tempi di conservazione
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
