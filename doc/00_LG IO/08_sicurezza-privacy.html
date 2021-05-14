@@ -1,0 +1,1662 @@
+<!DOCTYPE html>
+<html lang="it" class="no-js" prefix="og: http://ogp.me/ns#">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linee guida per accesso telematico ai servizi della Pubblica Amministrazione Bozza in consultazione documentazione | 8. Disposizioni in materia di sicurezza e protezione dei dati personali</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css">
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css">
+
+  <!-- Relations -->
+  <link rel="index" title="Indice" href="../../index.html">
+  <link rel="top" title="Linee guida per accesso telematico ai servizi della Pubblica Amministrazione Bozza in consultazione documentazione" href="../../index.html">
+  <link rel="up" title="Linee guida per accesso telematico ai servizi della Pubblica Amministrazione" href="index.html">
+  <link rel="next" title="Allegato 1: Procedura di adesione dei Soggetti erogatori al Punto di accesso telematico" href="../01_Allegato_Procedura adesione/index.html">
+  <link rel="prev" title="7. Governance del Punto di accesso telematico" href="07_governance-punto-accesso-telematico.html">
+
+  
+  
+  <!-- No Index - keep if out of docs.italia.it -->
+  
+  <meta name="robots" content="noindex, nofollow">
+  
+</head>
+
+<body class="docs-italia">
+  <script>
+	if (document.location.href.indexOf('?payload=') >= 0)
+		document.body.className += ' loading';
+</script>
+  <header class="container-fluid container-fluid--desktop px-0 header">
+  <nav class="navbar navbar-expand-lg primary-bg-a7 navbar-dark slim-header justify-content-start p-0 pl-lg-4 pr-lg-5">
+    <span class="navbar-brand ml-4"><a class="text-white" href="https://www.agid.gov.it">AGID</a> + <a class="text-white" href="https://teamdigitale.governo.it">Team Digitale</a></span>
+    <button class="navbar-toggler collapsed text-white px-2 py-0 mr-3"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+    <span class="navbar__icon it-expand my-auto ml-1"></span></button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item px-lg-2 pl-3">
+          <a class="nav-link" href="http://pianotriennale-ict.italia.it">Piano Triennale</a>
+        </li>
+        <li role="separator" class="nav-item divider ml-lg-0 ml-3"></li>
+        <li class="nav-item nav-text px-lg-2 pl-3 d-lg-none ">
+          <span class="nav-text text-uppercase text-white">Le community</span>
+        </li>
+        <li class="nav-item px-lg-2 pl-3">
+          <a class="nav-link" href="https://developers.italia.it">Developers</a>
+        </li>
+        <li class="nav-item px-lg-2 pl-3">
+          <a class="nav-link" href="https://designers.italia.it">Designers</a>
+        </li>
+        <li role="separator" class="nav-item divider ml-lg-0 ml-3"></li>
+        <li class="nav-item nav-text px-lg-2 pl-3 d-lg-none ">
+          <span class="nav-text text-uppercase text-white">Gli strumenti</span>
+        </li>
+        <li class="nav-item px-lg-2 pl-3">
+          <a class="nav-link" href="https://forum.italia.it">Forum</a>
+        </li>
+        <li class="nav-item px-lg-2 pl-3 active">
+          <a class="nav-link" href="https://docs.italia.it">Docs</a>
+        </li>
+        <li class="nav-item px-lg-2 pl-3">
+          <a class="nav-link" href="https://github.com/italia">GitHub</a>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="ml-auto">
+      
+    </div>
+  </nav>
+
+  <div class="row p-4 px-lg-5 m-0 bg-primary--dark align-items-center">
+    <div class="row w-100">
+      <div class="logo--header">
+        <a href="/" tabindex="-1" aria-hidden="true" class="d-block">
+          <svg class="svg--header align-bottom" xmlns="http://www.w3.org/2000/svg" height="78.187" width="97.387" viewBox="0 0 91.300002 73.300002"><g fill="#fff"><path d="M31.799 71.9V15.7h15.1V72h-15.1zM91.099 28.5h-13.8v23.1c0 2.3.1 3.8.2 4.8.1.9.5 1.7 1.2 2.4s1.8 1 3.3 1l8.6-.2.7 12c-5 1.1-8.9 1.7-11.5 1.7-6.8 0-11.4-1.5-13.8-4.6-2.5-3-3.7-8.6-3.7-16.8V0h15.1v15.6h13.8v12.9zM9.099 32.8c-2.6 0-4.8-.9-6.5-2.7s-2.6-4-2.6-6.6.9-4.8 2.5-6.6c1.7-1.8 3.9-2.6 6.5-2.6s4.8.9 6.5 2.7 2.5 4 2.5 6.7-.8 4.8-2.5 6.6c-1.6 1.6-3.7 2.5-6.4 2.5z"/></g></svg>
+        </a>
+      </div>
+      <div class="col pl-3 pl-sm-4">
+        <h1 class="h1--header mb-1">
+          <a href="/" class="site-title text-white">
+            Docs Italia
+            
+              <span class="badge badge-pill bg-primary--mid-dark align-middle">beta</span>
+            
+          </a>
+        </h1>
+        <h2 class="text-white mb-0 h2--header">Documenti pubblici, digitali.</h2>
+      </div>
+    </div>
+    <div class="row mt-4 w-100 docs__document-info">
+      <div class="col-md-6">
+        <i class="docs-icon-document docs__document-info__icon"></i>
+        <a href="../../index.html" class="text-white font-weight-normal">
+          Linee guida per accesso telematico ai servizi della Pubblica Amministrazione Bozza in consultazione documentazione
+        </a>
+      </div>
+      <div class="docs__document-info__ownership col-md-5 offset-md-1 mt-3 mt-md-0">
+        
+        <div class="w-100">
+          <i class="docs-icon-project docs__document-info__icon"></i>
+          <span class="docs__document-info__label ml-1">Progetto:</span>
+          <a href="/organizzazione-demo/progetto-demo" class="text-white font-weight-normal">
+            <u>Progetto demo</u>
+          </a>
+        </div>
+        
+        
+        <div class="w-100 mt-1">
+          <i class="docs-icon-publisher docs__document-info__icon"></i>
+          <span class="docs__document-info__label ml-1">Amministrazione:</span>
+          <a href="/organizzazione-demo/" class="text-white font-weight-normal">
+            <u>Organizzazione demo</u>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</header>
+<div class="doc-header container-fluid container-fluid--desktop bg-white">
+  <div class="row py-3 px-4 px-lg-5 align-items-center flex-nowrap justify-content-between">
+    <div class="col-auto d-md-none d-flex align-items-center order-1">
+      <a href="#" class="btn p-2" role="button" id="searchbox-toggle" data-toggle="collapse" data-target="#searchbox" aria-controls="searchbox" aria-expanded="false" aria-label="Toggle searchbox">
+        <span class="docs-icon-search d-inline-block">
+          <span class="sr-only">Cerca nel documento</span>
+        </span>
+      </a>
+    </div>
+    <div class="col-3 d-none d-md-flex pl-0">
+      
+  <div class="w-100" role="search">
+    <form class="mr-md-3" id="rtd-search-form" action="../../search.html" method="get">
+      <div class="input-group" role="search">
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+        <input type="text" class="p-2 text-grey form-control" style="" required="" id="cerca" name="q" placeholder="Cerca nel documento...">
+				<span class="input-group-append">
+					<button type="submit" class="btn btn-default text-primary px-3 py-2" role="search">
+            <span class="docs-icon-search d-block my-auto">
+							<span class="sr-only">Cerca nel documento</span>
+						</span>
+					</button>
+				</span>
+			</div>
+    </form>
+  </div>
+    </div>
+    <div class="col-auto d-flex align-items-center justify-content-center flex-md-grow-1 order-0 order-md-1 pl-0">
+      
+      <a href="#" role="button" class="btn p-2" data-toggle="modal" data-target="#document-info">
+        <span class="docs-icon-info"></span>
+        <span class="d-none d-md-inline align-middle">Informazioni</span>
+      </a>
+      
+    </div>
+    <div class="col-4 col-sm-auto d-flex flex-md-grow-1 align-items-center justify-content-center order-1">
+      <div id="rst-menu" class="px-2">
+        <div class="dropdown" id="version-list">
+            <button class="btn btn-primary dropdown-toggle badge badge-pill bg-primary text-nowrap px-3 py-2" type="button" id="dropdownVersionButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="current-version">bozza</span>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownVersionButton">
+              <div class="version-list-wrapper"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-auto d-none d-md-flex flex-grow-1 align-items-center order-1">
+      <div class="document-actions d-flex flex-column flex-md-row justify-content-around w-100 p-2 p-md-0 text-blue">
+  <div class="dropdown p-3 px-md-2 py-md-0 d-flex flex-wrap">
+    <a class="btn dropdown-toggle p-2 flex-grow-1 text-left" href="#" id="downloads-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="docs-icon-download align-middle"></span>
+      <span class="align-middle">Scarica</span>
+    </a>
+    <div class="dropdown-menu w-100" aria-labelledby="downloads-dropdown" aria-disabled="false">
+      <div class="link-list-wrapper">
+        <ul class="link-list">
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  <div class="p-3 px-md-2 py-md-0">
+    <a href="#" role="button" class="btn p-2 disabled" aria-disabled="true">
+        <span class="docs-icon-github"></span>
+        <span class="align-middle">Sorgente</span>
+    </a>
+  </div>
+</div>
+    </div>
+    
+    <div class="col-auto pr-0 d-md-none d-flex align-items-center justify-content-end order-1">
+      <a href="#" role="button" class="btn py-2 px-0" data-toggle="modal" data-target="#document-actions">
+        <span class="docs-icon-more"></span>
+        <span class="sr-only">Azioni</span>
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="progress-container">
+      <div class="progress-bar" id="scrollprogressBar"></div>
+    </div>
+  </div>
+</div>
+
+	<!--
+  Forum Italia comments templates
+-->
+
+<script id="forum-italia-comments" type="text/template">
+  <div class="block-comments" id="accordion-comments-{{ topicId }}" data-topic="{{ topicId }}">
+    <!-- Top header -->
+    <div class="block-comments__header d-flex border-top border-bottom border-width-2 pt-3 pb-3 align-items-center justify-content-between">
+      <h6 class="col-auto text-uppercase mb-0">{{ commentsCount }} Commenti</h6>
+      <button class="col-auto block-comments__toggle-btn rounded-circle border border-medium-blue border-width-2 collapsed" data-toggle="collapse" data-target="#comments-{{ topicId }}" aria-expanded="false">
+        <span class="docs-icon-plus"></span>
+        <span class="docs-icon-minus"></span>
+      </button>
+    </div>
+  </div>
+  <div class="block-comments__body collapse" data-parent="#accordion-comments-{{ topicId }}" id="comments-{{ topicId }}">
+    <!-- Input row -->
+    <div class="d-flex align-items-center mb-4 block-comments__input">
+      <div class="box-comment {{ canPost }}" data-topic="{{ topicId }}"></div>
+    </div>
+    <div class="row">
+      <div class="block-comments__container col">
+        <div class="row mt-4">
+          <ul class="block-comments__list col items mb-0" id="accordion-comment-item" data-topic="{{ topicId }}"></ul>
+        </div>
+      </div>
+    </div>
+    <div class="block-comments__header d-flex border-bottom border-width-2 pt-3 pb-3 mb-4 align-items-center justify-content-end">
+      <button class="col-auto block-comments__toggle-btn rounded-circle border border-medium-blue border-width-2 collapsed" data-toggle="collapse" data-target="#comments-{{ topicId }}" aria-expanded="false">
+        <span class="docs-icon-plus"></span>
+        <span class="docs-icon-minus"></span>
+      </button>
+    </div>
+  </div>
+</script>
+
+<script id="forum-italia__comment" type="text/template">
+  <li id="comment-{{ post.id }}" class="row mb-4 block-comments__item {{ hidden }} {{ isNew }}"
+      data-topic="{{ post.topic_id }}" data-comment="{{ post.id }}">
+    <div id="reply-to-{{ post.id }}" class="block-comments__reply-anchor"></div>
+    <figure class="col-auto mb-0">
+      <img class="block-comments__img rounded-circle" src="{{ avatarUrl }}">
+    </figure>
+    <div class="col block-comments__content">
+      <div class="row align-items-center justify-content-between" id="comment-heading-1">
+        <div class="col-auto">
+          <span class="block-comments__name text-capitalize mb-0">{{ displayName }}</span>
+        </div>
+        <div class="col-auto">
+          <p class="d-inline-block mr-2 block-comments__date mb-0">{{ date }}</p>
+          <button class="block-comments__item-btn" data-toggle="collapse"
+                  data-target="#collapse-{{ post.id }}">
+            <i class="it-collapse"></i>
+            <i class="it-expand"></i>
+          </button>
+        </div>
+      </div>
+      <p class="text-uppercase block-comments__role">{{ publicUserField }}</p>
+      <div class="my-3">{{ replyLink }}</div>
+      <div id="collapse-{{ post.id }}" class="block-comments__paragraph pl-3 border-left collapse show"
+           aria-labelledby="comment-heading-1">
+        {{ post.cooked }}
+      </div>
+      <div class="block-comments__actions mb-2 mt-3">
+        {{ postActions }}
+      </div>
+    </div>
+  </li>
+</script>
+
+<script id="forum-italia__like-button" type="text/template">
+  <small>
+      <button id="{{ buttonAction }}-like-{{ post.id }}" type="button" class="btn btn-primary btn-sm mr-2 px-2 py-1">
+        {{ likeCount }}
+        <i class="it-favorite ml-1 mr-0"></i>
+      </button>
+      {{ likeDone }}
+    </small>
+</script>
+
+<script id="forum-italia__like-info" type="text/template">
+  <small>
+      <span id="like-{{ post.id }}" class="border rounded btn-sm mr-2 px-2 py-1">
+        {{ likeCount }}
+        <i class="it-favorite ml-1 mr-0"></i>
+      </span>
+      {{ likeDone }}
+    </small>
+</script>
+
+<script id="forum-italia__reply-link" type="text/template">
+  <div>
+    <small>In risposta al 
+      <a class="reply-to-post" href="#reply-to-{{ replyDest.id }}">
+        commento di {{ replyDest.name }}
+      </a>
+    </small>
+  </div>
+</script>
+
+<script id="forum__login" type="text/template">
+  <div class="box-comment__user-image box-comment__user-image--anon">
+    <i class="docs-icon-user"></i>
+  </div>
+  <div class="box-comment__login">
+    <div><button class="login-button btn-link p-0 border-0 align-baseline">Accedi al Forum</button> per commentare</div>
+  </div>
+</script>
+
+<script id="forum__comment" type="text/template">
+  <div class="form group">
+    <div class="box-comment__errors-box"></div>
+    <!-- Write -->
+    <div class="d-flex align-items-center mt-4 mb-4 block-comments__input box-comment__write">
+      <figure class="col-auto mb-0">
+        <img class="block-comments__img box-comment__figure rounded-circle" src="">
+          <figcaption>
+            <a href="#logout" class="block-comments__logout-link block-comments__logout-link--visible" data-toggle="modal" data-target="#logout-modal" title="Logout" alt="Logout">Logout</a>
+          </figcaption>
+      </figure>
+      <textarea class="form-control box-comment__body col ml-2 p-2" id="comments-input" placeholder="Scrivi qui un commento. Per formattare il testo puoi usare Markdown. Clicca sul bottone 'suggerimenti' per vedere alcuni esempi." rows="4"></textarea>
+    </div>
+    <!-- Buttons -->
+    <div class="box-comment__buttons">
+      <button type="button" class="btn btn-primary btn-sm box-comment__submit mr-2" disabled="true"><div>invia</div></button>
+      <button type="button" class="btn btn-sm btn-secondary new-comment__suggestions" data-container="body" data-toggle="popover" data-content="html">suggerimenti</button><span class="loading no-bg">&nbsp;</span>
+    </div>
+    <div class="box-comment__required">
+      <span>Scrivi almeno altri <span class="required-chars">20</span> caratteri</span>
+    </div>
+  </div>
+</script>
+
+<script id="forum-italia__missing_permission" type="text/template">
+	<div class="pl-2 block-comments__input missing_permission error error--{{ errorCode }} row">
+		<figure class="col-auto mb-0 mr-2">
+			<img class="block-comments__img new-comment__figure rounded-circle" src="">
+			<figcaption>
+				<a href="#logout" class="block-comments__logout-link block-comments__logout-link--visible" data-toggle="modal" data-target="#logout-modal" title="Logout" alt="Logout">Logout</a>
+			</figcaption>
+		</figure>
+
+		<div class="missing_permission__text col pt-2">{{ errorText }}</div>
+	</div>
+</script>
+
+<script id="forum__logout--modal" type="text/template">
+  <div class="modal logout-modal" id="logout-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Logout</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Dopo il logout non sarà possibile scrivere nuovi commenti. Sicuro di voler procedere?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal" id="logout-modal__submit">Conferma</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal" id="logout-modal__cancel">Annulla</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</script>
+
+<script id="forum-italia__markup__tooltip" type="text/template">
+  <div class="tooltip tooltip--active doc-tooltip box-comment__suggestions__tooltip" role="tooltip">
+    <div class="tooltip__wrap">
+      Markdown per la formattazione del testo:
+      <ul class="tooltip__content">
+        <li><b>Grassetto:</b> __testo__ (o **testo**)</li>
+        <li><i>Corsivo</i>: _testo_</li>
+        <li>Link: [Testo](http://example.com)</li>
+        <li>Citazione: &gt; Testo citazione</li>
+      </ul>
+    </div>
+  </div>
+</script>
+
+<script id="forum-italia__silenced" type="text/template">
+  <div class="error error__silenced">
+    Il tuo account è stato temporaneamente sospeso, scopri di più leggendo
+    <a href="{{ notificationsUrl }}" target="_blank">le tue notifiche</a> su Forum Italia.
+    <br>
+  </div>
+</script>
+
+<script id="forum-italia__closedTopic" type="text/template">
+  <div class="error error__closed">
+    Questa discussione è in sola lettura.
+    <br>
+  </div>
+</script>
+
+<script id="section_navigation__comments" type="text/template">
+  <li class="chapter-nav__item">
+      <span class="it-comment mr-2 align-middle"></span>
+      <a href="#forum-italia-comments-{{ topicId }}" class="chapter-link chapter-link--expand">
+          {{ postsCount }} commenti
+      </a>
+  </li>
+</script>
+
+
+<!--
+  markup_modifier templates
+-->
+
+<script id="markup_modifier__chapter-header" type="text/template"> <div class="chapter-header clearfix"><div class="title-wrap"> </script>
+
+<script id="markup_modifier__icon" type="text/template">
+	<span class="docs-icon-{{ i }}"></span>
+</script>
+
+<script id="markup_modifier__note-action" type="text/template">
+	<div class='note-action'>
+		<button type='button' class='note-close-btn'>×</button>
+		<button type='button' class='note-back-btn'><i class='it-arrow-up'></i> {{ text }} </button>
+	</div>
+</script>
+
+<script id="markup_modifier__admonition" type="text/template">
+	<div class='admonition__toggle-wrap'>
+		<button type='button' class='admonition__toggle-btn'>
+			<span class='admonition__toggle-show-more'>
+				{{ more }} <span class='docs-icon-plus'></span>
+			</span>
+			<span class='admonition__toggle-show-less'>
+				{{ less }} <span class='docs-icon-minus'></span>
+			</span>
+		</button>
+	</div>
+</script>
+
+
+<!--
+  glossary_page templates
+-->
+
+<script id="glossary__btn" type="text/template">
+	<button class='glossary-page__btn collapsed border-top border-grey-light border-width-2 pt-3 pb-3' data-toggle='collapse' data-target='#glossary-{{ id }}' aria-expanded='true' aria-controls='glossary-{{ id }}'>
+		<span class='docs-icon-plus mr-3'> </span>
+		<span class='docs-icon-minus mr-3'> </span>
+		{{ text }}
+	</button>
+</script>
+
+<script id="glossary__copy-link" type="text/template">
+	<div class='glossary-page__copy-link-wrap mt-3'>
+		<i class='it-link mr-2 align-middle'></i>
+		<button type='button' class='glossary-page__copy-link'> {{ copyLink }} </button>
+	</div>
+</script>
+
+
+<!--
+  searchbox_collapse templates
+-->
+
+<script id="searchbox-collapse" type="text/template">
+	<div class="row p-2"><div class="col"></div></div>
+</script>
+
+
+<!--
+  section_navigation templates
+-->
+
+<script id="section_navigation__nav" type="text/template">
+    <div class="chapter-nav">
+        <div class="chapter-nav__wrap">
+            <ul class="chapter-nav__list chapter-nav__list--visible">
+                <li class="chapter-nav__item">
+                    <span class="it-more-items mr-2 align-middle"></span>
+                    <button type="button" data-toggle="modal"
+                        class="chapter-link chapter-link--expand">{{ seeActions }}</button>
+                </li>
+            </ul>
+            <div class="{{ modalClass }} chapter-nav__list--hidden" tabindex="-1" role="dialog"
+                     aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="{{ modalContainerClass }}">
+                    <div class="{{ modalContentClass }} chapter-nav__list-wrap">
+                        <div class="chapter-nav__title"> {{ title }} </div>
+                        <ul class="chapter-nav__list">
+                            <li class="chapter-nav__item">
+                                <i class="it-link mr-2 align-middle"></i>
+                                <button type="button" class="chapter-link">{{ copyLink }}</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+
+<!--
+  tooltip templates
+-->
+
+<script id="tooltip__main" type="text/template">
+	<div class='tooltip tooltip--active doc-tooltip' role='tooltip'>
+		<div class='tooltip__wrap'>
+			<button type='button' role='button' class='tooltip__close-btn' data-ref="{{ item.ref }}"></button>
+			<h2 class='tooltip__title'>{{ item.title }}</h2>
+			<p class='tooltip__content'>{{ item.body }}</p>
+		</div>
+	</div>
+</script>
+
+<script id="tooltip__glossary" type="text/template">
+	<div class='tooltip tooltip--active doc-tooltip' role='tooltip'>
+		<div class='tooltip__wrap'>
+			<button type='button' role='button' class='tooltip__close-btn' data-ref="{{ item.ref }}"></button>
+			<h2 class='tooltip__title'>{{ item.title }}</h2>
+			<p class='tooltip__content'>{{ trimmedSummary }}</p> {{ btnToGlossary }}
+		</div>
+	</div>
+</script>
+
+<script id="tooltip__note" type="text/template">
+	<div class='tooltip tooltip--active doc-tooltip doc-tooltip--note' role='tooltip'>
+		<div class='tooltip__wrap'>
+			<button type='button' role='button' class='tooltip__close-btn' data-ref="{{ item.ref }}"></button>
+			<h2 class='tooltip__title'>{{ item.title }}</h2>
+			<p class='tooltip__content'> {{ item.body }}</p>
+		</div>
+	</div>
+</script>
+
+
+  <div id="main" role="document">
+    <div class="container-fluid container-fluid--desktop main-container">
+      <div class="row">
+        <nav class="col--nav">
+          <section class="docs-menu">
+  <div id="desktop-menu" class="sidebar-nav">
+    <a class=""
+      aria-controls="desktop-menu" aria-label="esci dalla navigazione" title="esci dalla navigazione" href="#">
+      <span class="" aria-hidden="true"></span>
+    </a>
+
+    <button data-toggle="collapse" data-target="#content-index" aria-expanded="true" class="sidebar-btn p-3 sidebar-btn--desktop" type="button" aria-controls="content-index">
+      indice dei contenuti
+      <span class="it-collapse float-right"></span>
+      <span class="it-expand float-right"></span>
+    </button>
+    <div id="content-index" class="content-index--menu sidebar-list--wrapper sidebar-accordion-content collapse show">
+      <ul class="">
+        <li class="toctree-l1 ">
+          <a href='../../index.html'>Sommario</a>
+        </li>
+      </ul>
+      
+      <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Linee guida per accesso telematico ai servizi della Pubblica Amministrazione</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="01_introduzione.html">1. Introduzione</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02_ambito-di-applicazione.html">2. Ambito di applicazione</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="02_ambito-di-applicazione.html#soggetti-destinatari">2.1. Soggetti destinatari</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="03_riferimenti-sigle.html">3. Riferimenti e sigle</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="03_riferimenti-sigle.html#note-di-lettura-del-documento">3.1. Note di lettura del documento</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03_riferimenti-sigle.html#struttura">3.2. Struttura</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03_riferimenti-sigle.html#riferimenti-normativi">3.3. Riferimenti Normativi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03_riferimenti-sigle.html#linee-guida-di-riferimento">3.4. Linee guida di riferimento</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03_riferimenti-sigle.html#termini-e-definizioni">3.5. Termini e definizioni</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="04_principi-generali.html">4. Principi generali</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="04_principi-generali.html#servizio-in-rete">4.1. Servizio in rete</a></li>
+<li class="toctree-l3"><a class="reference internal" href="04_principi-generali.html#punto-di-accesso-telematico">4.2. Punto di accesso telematico</a></li>
+<li class="toctree-l3"><a class="reference internal" href="04_principi-generali.html#gestore">4.3. Gestore</a></li>
+<li class="toctree-l3"><a class="reference internal" href="04_principi-generali.html#soggetti-erogatori">4.4. Soggetti erogatori</a></li>
+<li class="toctree-l3"><a class="reference internal" href="04_principi-generali.html#utenti-finali-dei-servizi-in-rete">4.5. Utenti finali dei Servizi in rete</a></li>
+<li class="toctree-l3"><a class="reference internal" href="04_principi-generali.html#documentazione-tecnica">4.6. Documentazione tecnica</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="05_realizzazione-servizi.html">5. Principi per la realizzazione di Servizi in rete e del Punto di accesso telematico</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="05_realizzazione-servizi.html#accessibilita-dei-servizi-in-rete">5.1. Accessibilità dei Servizi in rete</a></li>
+<li class="toctree-l3"><a class="reference internal" href="05_realizzazione-servizi.html#obiettivi-di-semplificazione-e-principio-di-once-only-e-mobile-first">5.2. Obiettivi di semplificazione e principio di “once-only” e “mobile-first”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="05_realizzazione-servizi.html#rispetto-delle-minoranze-linguistiche-e-dei-principi-in-materia-di-accessibilita">5.3. Rispetto delle minoranze linguistiche e dei principi in materia di accessibilità</a></li>
+<li class="toctree-l3"><a class="reference internal" href="05_realizzazione-servizi.html#open-source-sviluppo-collaborativo-e-riuso">5.4. Open source, sviluppo collaborativo e riuso</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="06_punto-accesso-telematico.html">6. Punto di accesso telematico</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="06_punto-accesso-telematico.html#front-end-per-gli-utenti-finali">6.1. Front-end per gli utenti finali</a></li>
+<li class="toctree-l3"><a class="reference internal" href="06_punto-accesso-telematico.html#back-end-del-punto-di-accesso-telematico">6.2. Back-end del Punto di accesso telematico</a></li>
+<li class="toctree-l3"><a class="reference internal" href="06_punto-accesso-telematico.html#back-office-dei-soggetti-erogatori">6.3. Back office dei Soggetti erogatori</a></li>
+<li class="toctree-l3"><a class="reference internal" href="06_punto-accesso-telematico.html#repertorio-dei-servizi-in-rete-fruibili-dal-del-punto-di-accesso-telematico">6.4. Repertorio dei Servizi in rete fruibili dal del Punto di accesso telematico</a></li>
+<li class="toctree-l3"><a class="reference internal" href="06_punto-accesso-telematico.html#integrazione-del-punto-di-accesso-telematico-con-le-piattaforme-previste-dal-cad-e-normative-specifiche">6.5. Integrazione del Punto di accesso telematico con le piattaforme previste dal CAD e normative specifiche</a></li>
+<li class="toctree-l3"><a class="reference internal" href="06_punto-accesso-telematico.html#funzionalita-del-punto-di-accesso-telematico">6.6. Funzionalità del Punto di accesso telematico</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="07_governance-punto-accesso-telematico.html">7. Governance del Punto di accesso telematico</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#adesione-al-punto-di-accesso-telematico-dei-soggetti-erogatori">7.1. Adesione al Punto di accesso telematico dei Soggetti erogatori</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#soggetti-singoli">7.1.1. Soggetti singoli</a></li>
+<li class="toctree-l4"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#soggetti-aggregatori">7.1.2. Soggetti aggregatori</a></li>
+<li class="toctree-l4"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#partner-tecnologi">7.1.3. Partner tecnologi</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#selezione-e-sviluppo-dei-servizi-in-rete">7.2. Selezione e sviluppo dei Servizi in rete</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#individuazione-del-servizio-in-rete">7.2.1. Individuazione del Servizio in rete</a></li>
+<li class="toctree-l4"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#realizzazione-del-servizio-in-rete">7.2.2. Realizzazione del servizio in rete</a></li>
+<li class="toctree-l4"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#verifica-e-test-dei-servizi-in-rete">7.2.3. Verifica e test dei Servizi in rete</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#gestione-delle-anomalie-dei-servizi-in-rete-e-assistenza-agli-utenti-finali">7.3. Gestione delle anomalie dei Servizi in rete e assistenza agli utenti finali</a></li>
+<li class="toctree-l3"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#indicatori-di-qualita">7.4. Indicatori di qualità</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#indicatori-sulla-qualita-dello-sviluppo">7.4.1. Indicatori sulla qualità dello sviluppo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#indicatori-del-piano-di-lavoro">7.4.2. Indicatori del piano di lavoro</a></li>
+<li class="toctree-l4"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#indicatori-dei-servizi-api-realizzati">7.4.3. Indicatori dei servizi/API realizzati</a></li>
+<li class="toctree-l4"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#indicatori-dei-servizi-di-supporto">7.4.4. Indicatori dei servizi di supporto</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">8. Disposizioni in materia di sicurezza e protezione dei dati personali</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#misure-minime-per-lerogazione-di-servizi-in-rete">8.1. Misure minime per l’erogazione di Servizi in rete</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#trattamenti-e-ruoli-dei-soggetti-coinvolti">8.2. Trattamenti e ruoli dei soggetti coinvolti</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#misure-di-garanzia-per-le-particolari-categorie-di-dati">8.3. Misure di garanzia per le particolari categorie di dati</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#necessita-e-proporzionalita-del-trattamento">8.4. Necessità e proporzionalità del trattamento</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#minimizzazione">8.4.1. Minimizzazione</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#limitazione-dei-tempi-di-conservazione">8.4.2. Limitazione dei tempi di conservazione</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#misure-di-responsabilizzazione-cd-principio-di-accountability">8.4.3. Misure di responsabilizzazione - cd. principio di “accountability”</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#trasparenza-e-rispetto-dellesercizio-dei-diritti-degli-utenti-finali">8.4.4. Trasparenza e rispetto dell’esercizio dei diritti degli utenti finali</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#responsabili-del-trattamento-e-trasferimenti-dei-dati-personali">8.4.5. Responsabili del trattamento e trasferimenti dei dati personali</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#dati-di-log">8.4.6. Dati di log</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#sicurezza-del-trattamento">8.5. Sicurezza del trattamento</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#principi">8.5.1. Principi</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#partizionamento-dei-dati-personali">8.5.2. Partizionamento dei dati personali</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#cifratura-dei-dati-personali">8.5.3. Cifratura dei dati personali</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#anonimizzazione-dei-dati-personali">8.5.4. Anonimizzazione dei dati personali</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../01_Allegato_Procedura adesione/index.html">Allegato 1: Procedura di adesione dei Soggetti erogatori al Punto di accesso telematico</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../01_Allegato_Procedura adesione/index.html#perfezionamento-dellaccordo-di-adesione-e-comunicazione-dei-soggetti-delegati">Perfezionamento dell’accordo di adesione e comunicazione dei soggetti delegati</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01_Allegato_Procedura adesione/index.html#gestione-dei-delegati-del-soggetto-erogatore-nel-portale">Gestione dei delegati del Soggetto erogatore nel Portale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01_Allegato_Procedura adesione/index.html#autenticazione-degli-utenti-del-portale">Autenticazione degli utenti del Portale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01_Allegato_Procedura adesione/index.html#verifica-periodica-delle-utenze">Verifica periodica delle utenze</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01_Allegato_Procedura adesione/index.html#configurazione-dei-servizi-in-rete-e-utilizzo-delle-api">Configurazione dei Servizi in rete e utilizzo delle API</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../02_Allegato_Funzionalita/index.html">Allegato 2: Funzionalità del Punto di accesso telematico</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../02_Allegato_Funzionalita/index.html#identificazione-degli-utenti-finali">Identificazione degli utenti finali</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02_Allegato_Funzionalita/index.html#messaggi">Messaggi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02_Allegato_Funzionalita/index.html#portafoglio">Portafoglio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02_Allegato_Funzionalita/index.html#servizi">Servizi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02_Allegato_Funzionalita/index.html#profilo">Profilo</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../03_Allegato_Integrazione piattaforme/index.html">Allegato 3: Integrazione del Punto di accesso telematico con le piattaforme digitali previste dal CAD e normative specifiche</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../03_Allegato_Integrazione piattaforme/index.html#piattaforma-di-cui-allart-5-comma-2-del-cad">Piattaforma di cui all’art. 5, comma 2 del CAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_Allegato_Integrazione piattaforme/index.html#piattaforma-di-cui-allart-6-bis-del-cad">Piattaforma di cui all’art. 6-bis del CAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_Allegato_Integrazione piattaforme/index.html#piattaforma-di-cui-allart-6-ter-del-cad">Piattaforma di cui all’art. 6-ter del CAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_Allegato_Integrazione piattaforme/index.html#piattaforma-di-cui-allart-6-quater-del-cad">Piattaforma di cui all’art. 6-quater del CAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_Allegato_Integrazione piattaforme/index.html#piattaforma-di-cui-allart-50-ter-del-cad">Piattaforma di cui all’art. 50-ter del CAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_Allegato_Integrazione piattaforme/index.html#piattaforma-di-cui-allart-62-del-cad">Piattaforma di cui all’art. 62 del CAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_Allegato_Integrazione piattaforme/index.html#piattaforma-di-cui-allart-64-del-cad">Piattaforma di cui all’art. 64 del CAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_Allegato_Integrazione piattaforme/index.html#strumenti-di-identificazione-di-cui-allart-66-del-cad">Strumenti di identificazione di cui all’art. 66 del CAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_Allegato_Integrazione piattaforme/index.html#piattaforma-per-la-notificazione-digitale-degli-atti-della-pubblica-amministrazione-di-cui-all-articolo-1-comma-402-della-legge-27-dicembre-2019-n-160">Piattaforma per la notificazione digitale degli atti della pubblica amministrazione di cui all’articolo 1, comma 402, della legge 27 dicembre 2019, n. 160</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../04_Allegato_Domain model/index.html">Allegato 4: Domain model del Punto di accesso telematico</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../04_Allegato_Domain model/index.html#profilo">Profilo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../04_Allegato_Domain model/index.html#servizio">Servizio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../04_Allegato_Domain model/index.html#messaggio">Messaggio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../04_Allegato_Domain model/index.html#notifica">Notifica</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../05_Allegato_Misure minime sicurezza/index.html">Allegato 5: Misure minime di sicurezza</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../05_Allegato_Misure minime sicurezza/index.html#obblighi-del-gestore">Obblighi del Gestore</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../05_Allegato_Misure minime sicurezza/index.html#obblighi-del-soggetto-erogatore">Obblighi del Soggetto erogatore</a></li>
+</ul>
+</li>
+</ul>
+
+      
+    </div>
+
+    
+
+    
+
+    
+  </div>
+</section>
+          <!-- Toggle -->
+<div class="navbar-toggler--wrap navbar-toggler--wrap--bottom p-3">
+  <div class="navbar-toggler navbar-toggler--open p-0 border-0 ml-auto">
+    <div class="navbar-toggler-bottom__chapter align-middle text-truncate">
+      <span class="it-list mr-2"></span>8. Disposizioni in materia di sicurezza e protezione dei dati personali
+    </div>
+  </div>
+</div>
+
+<div class="sidebar-tabs">
+
+  <!-- Back button. -->
+  <div class="row">
+    <div class="col">
+      <button class="navbar-toggler navbar-toggler--back border-0 ml-auto" type="button" data-toggle="offcanvas">
+        <span class="it-arrow-left align-middle"></span>
+        <span class="navbar-toggler__chapter align-middle ml-2">
+          indici e glossario
+        </span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Tab -->
+  <ul class="row ml-3 mr-3 nav nav-tabs" role="tablist">
+    <li class="col text-center active">
+      <a id="content-index-mobile-tab" data-toggle="tab" href="#content-index-mobile" aria-controls="content-index-mobile" role="tab" aria-selected="true" class="sidebar-btn p-2 sidebar-btn--mobile active show">
+        contenuti
+      </a>
+    </li>
+    <li class="col text-center">
+      <a id="figures-index-mobile-tab" data-toggle="tab" href="#figures-index-mobile" aria-controls="figures-index-mobile" role="tab" aria-selected="false" class="col sidebar-btn p-2 sidebar-btn--mobile">
+        figure
+      </a>
+    </li>
+    <li class="col text-center">
+      <a id="table-index-mobile-tab" data-toggle="tab" href="#table-index-mobile" aria-controls="table-index-mobile" role="tab" aria-selected="false" class="col sidebar-btn p-2 sidebar-btn--mobile">
+        tabelle
+      </a>
+    </li>
+    <li class="col text-center">
+      <a id="glossary-index-mobile-tab" data-toggle="tab" href="#glossary-index-mobile" aria-controls="glossary-index-mobile" role="tab" aria-selected="false" class="col sidebar-btn p-2 sidebar-btn--mobile">
+        glossario
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+<!-- Off canvas -->
+<section class="docs-offcanvas-menu" id="sidebar-nav">
+  <div class="tab-content sidebar-nav">
+
+      <div id="content-index-mobile" class="content-index--menu tab-pane sidebar-list--wrapper fade show active" role="tabpanel" aria-labelledby="content-index-mobile-tab">
+        <ul class="">
+          <li class="toctree-l1 ">
+            <a href='../../index.html'>Sommario</a>
+          </li>
+        </ul>
+        
+        <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Linee guida per accesso telematico ai servizi della Pubblica Amministrazione</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="01_introduzione.html">1. Introduzione</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02_ambito-di-applicazione.html">2. Ambito di applicazione</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="02_ambito-di-applicazione.html#soggetti-destinatari">2.1. Soggetti destinatari</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="03_riferimenti-sigle.html">3. Riferimenti e sigle</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="03_riferimenti-sigle.html#note-di-lettura-del-documento">3.1. Note di lettura del documento</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03_riferimenti-sigle.html#struttura">3.2. Struttura</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03_riferimenti-sigle.html#riferimenti-normativi">3.3. Riferimenti Normativi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03_riferimenti-sigle.html#linee-guida-di-riferimento">3.4. Linee guida di riferimento</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03_riferimenti-sigle.html#termini-e-definizioni">3.5. Termini e definizioni</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="04_principi-generali.html">4. Principi generali</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="04_principi-generali.html#servizio-in-rete">4.1. Servizio in rete</a></li>
+<li class="toctree-l3"><a class="reference internal" href="04_principi-generali.html#punto-di-accesso-telematico">4.2. Punto di accesso telematico</a></li>
+<li class="toctree-l3"><a class="reference internal" href="04_principi-generali.html#gestore">4.3. Gestore</a></li>
+<li class="toctree-l3"><a class="reference internal" href="04_principi-generali.html#soggetti-erogatori">4.4. Soggetti erogatori</a></li>
+<li class="toctree-l3"><a class="reference internal" href="04_principi-generali.html#utenti-finali-dei-servizi-in-rete">4.5. Utenti finali dei Servizi in rete</a></li>
+<li class="toctree-l3"><a class="reference internal" href="04_principi-generali.html#documentazione-tecnica">4.6. Documentazione tecnica</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="05_realizzazione-servizi.html">5. Principi per la realizzazione di Servizi in rete e del Punto di accesso telematico</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="05_realizzazione-servizi.html#accessibilita-dei-servizi-in-rete">5.1. Accessibilità dei Servizi in rete</a></li>
+<li class="toctree-l3"><a class="reference internal" href="05_realizzazione-servizi.html#obiettivi-di-semplificazione-e-principio-di-once-only-e-mobile-first">5.2. Obiettivi di semplificazione e principio di “once-only” e “mobile-first”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="05_realizzazione-servizi.html#rispetto-delle-minoranze-linguistiche-e-dei-principi-in-materia-di-accessibilita">5.3. Rispetto delle minoranze linguistiche e dei principi in materia di accessibilità</a></li>
+<li class="toctree-l3"><a class="reference internal" href="05_realizzazione-servizi.html#open-source-sviluppo-collaborativo-e-riuso">5.4. Open source, sviluppo collaborativo e riuso</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="06_punto-accesso-telematico.html">6. Punto di accesso telematico</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="06_punto-accesso-telematico.html#front-end-per-gli-utenti-finali">6.1. Front-end per gli utenti finali</a></li>
+<li class="toctree-l3"><a class="reference internal" href="06_punto-accesso-telematico.html#back-end-del-punto-di-accesso-telematico">6.2. Back-end del Punto di accesso telematico</a></li>
+<li class="toctree-l3"><a class="reference internal" href="06_punto-accesso-telematico.html#back-office-dei-soggetti-erogatori">6.3. Back office dei Soggetti erogatori</a></li>
+<li class="toctree-l3"><a class="reference internal" href="06_punto-accesso-telematico.html#repertorio-dei-servizi-in-rete-fruibili-dal-del-punto-di-accesso-telematico">6.4. Repertorio dei Servizi in rete fruibili dal del Punto di accesso telematico</a></li>
+<li class="toctree-l3"><a class="reference internal" href="06_punto-accesso-telematico.html#integrazione-del-punto-di-accesso-telematico-con-le-piattaforme-previste-dal-cad-e-normative-specifiche">6.5. Integrazione del Punto di accesso telematico con le piattaforme previste dal CAD e normative specifiche</a></li>
+<li class="toctree-l3"><a class="reference internal" href="06_punto-accesso-telematico.html#funzionalita-del-punto-di-accesso-telematico">6.6. Funzionalità del Punto di accesso telematico</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="07_governance-punto-accesso-telematico.html">7. Governance del Punto di accesso telematico</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#adesione-al-punto-di-accesso-telematico-dei-soggetti-erogatori">7.1. Adesione al Punto di accesso telematico dei Soggetti erogatori</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#soggetti-singoli">7.1.1. Soggetti singoli</a></li>
+<li class="toctree-l4"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#soggetti-aggregatori">7.1.2. Soggetti aggregatori</a></li>
+<li class="toctree-l4"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#partner-tecnologi">7.1.3. Partner tecnologi</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#selezione-e-sviluppo-dei-servizi-in-rete">7.2. Selezione e sviluppo dei Servizi in rete</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#individuazione-del-servizio-in-rete">7.2.1. Individuazione del Servizio in rete</a></li>
+<li class="toctree-l4"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#realizzazione-del-servizio-in-rete">7.2.2. Realizzazione del servizio in rete</a></li>
+<li class="toctree-l4"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#verifica-e-test-dei-servizi-in-rete">7.2.3. Verifica e test dei Servizi in rete</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#gestione-delle-anomalie-dei-servizi-in-rete-e-assistenza-agli-utenti-finali">7.3. Gestione delle anomalie dei Servizi in rete e assistenza agli utenti finali</a></li>
+<li class="toctree-l3"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#indicatori-di-qualita">7.4. Indicatori di qualità</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#indicatori-sulla-qualita-dello-sviluppo">7.4.1. Indicatori sulla qualità dello sviluppo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#indicatori-del-piano-di-lavoro">7.4.2. Indicatori del piano di lavoro</a></li>
+<li class="toctree-l4"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#indicatori-dei-servizi-api-realizzati">7.4.3. Indicatori dei servizi/API realizzati</a></li>
+<li class="toctree-l4"><a class="reference internal" href="07_governance-punto-accesso-telematico.html#indicatori-dei-servizi-di-supporto">7.4.4. Indicatori dei servizi di supporto</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">8. Disposizioni in materia di sicurezza e protezione dei dati personali</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#misure-minime-per-lerogazione-di-servizi-in-rete">8.1. Misure minime per l’erogazione di Servizi in rete</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#trattamenti-e-ruoli-dei-soggetti-coinvolti">8.2. Trattamenti e ruoli dei soggetti coinvolti</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#misure-di-garanzia-per-le-particolari-categorie-di-dati">8.3. Misure di garanzia per le particolari categorie di dati</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#necessita-e-proporzionalita-del-trattamento">8.4. Necessità e proporzionalità del trattamento</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#minimizzazione">8.4.1. Minimizzazione</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#limitazione-dei-tempi-di-conservazione">8.4.2. Limitazione dei tempi di conservazione</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#misure-di-responsabilizzazione-cd-principio-di-accountability">8.4.3. Misure di responsabilizzazione - cd. principio di “accountability”</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#trasparenza-e-rispetto-dellesercizio-dei-diritti-degli-utenti-finali">8.4.4. Trasparenza e rispetto dell’esercizio dei diritti degli utenti finali</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#responsabili-del-trattamento-e-trasferimenti-dei-dati-personali">8.4.5. Responsabili del trattamento e trasferimenti dei dati personali</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#dati-di-log">8.4.6. Dati di log</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#sicurezza-del-trattamento">8.5. Sicurezza del trattamento</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#principi">8.5.1. Principi</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#partizionamento-dei-dati-personali">8.5.2. Partizionamento dei dati personali</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#cifratura-dei-dati-personali">8.5.3. Cifratura dei dati personali</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#anonimizzazione-dei-dati-personali">8.5.4. Anonimizzazione dei dati personali</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../01_Allegato_Procedura adesione/index.html">Allegato 1: Procedura di adesione dei Soggetti erogatori al Punto di accesso telematico</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../01_Allegato_Procedura adesione/index.html#perfezionamento-dellaccordo-di-adesione-e-comunicazione-dei-soggetti-delegati">Perfezionamento dell’accordo di adesione e comunicazione dei soggetti delegati</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01_Allegato_Procedura adesione/index.html#gestione-dei-delegati-del-soggetto-erogatore-nel-portale">Gestione dei delegati del Soggetto erogatore nel Portale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01_Allegato_Procedura adesione/index.html#autenticazione-degli-utenti-del-portale">Autenticazione degli utenti del Portale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01_Allegato_Procedura adesione/index.html#verifica-periodica-delle-utenze">Verifica periodica delle utenze</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01_Allegato_Procedura adesione/index.html#configurazione-dei-servizi-in-rete-e-utilizzo-delle-api">Configurazione dei Servizi in rete e utilizzo delle API</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../02_Allegato_Funzionalita/index.html">Allegato 2: Funzionalità del Punto di accesso telematico</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../02_Allegato_Funzionalita/index.html#identificazione-degli-utenti-finali">Identificazione degli utenti finali</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02_Allegato_Funzionalita/index.html#messaggi">Messaggi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02_Allegato_Funzionalita/index.html#portafoglio">Portafoglio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02_Allegato_Funzionalita/index.html#servizi">Servizi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02_Allegato_Funzionalita/index.html#profilo">Profilo</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../03_Allegato_Integrazione piattaforme/index.html">Allegato 3: Integrazione del Punto di accesso telematico con le piattaforme digitali previste dal CAD e normative specifiche</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../03_Allegato_Integrazione piattaforme/index.html#piattaforma-di-cui-allart-5-comma-2-del-cad">Piattaforma di cui all’art. 5, comma 2 del CAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_Allegato_Integrazione piattaforme/index.html#piattaforma-di-cui-allart-6-bis-del-cad">Piattaforma di cui all’art. 6-bis del CAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_Allegato_Integrazione piattaforme/index.html#piattaforma-di-cui-allart-6-ter-del-cad">Piattaforma di cui all’art. 6-ter del CAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_Allegato_Integrazione piattaforme/index.html#piattaforma-di-cui-allart-6-quater-del-cad">Piattaforma di cui all’art. 6-quater del CAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_Allegato_Integrazione piattaforme/index.html#piattaforma-di-cui-allart-50-ter-del-cad">Piattaforma di cui all’art. 50-ter del CAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_Allegato_Integrazione piattaforme/index.html#piattaforma-di-cui-allart-62-del-cad">Piattaforma di cui all’art. 62 del CAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_Allegato_Integrazione piattaforme/index.html#piattaforma-di-cui-allart-64-del-cad">Piattaforma di cui all’art. 64 del CAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_Allegato_Integrazione piattaforme/index.html#strumenti-di-identificazione-di-cui-allart-66-del-cad">Strumenti di identificazione di cui all’art. 66 del CAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_Allegato_Integrazione piattaforme/index.html#piattaforma-per-la-notificazione-digitale-degli-atti-della-pubblica-amministrazione-di-cui-all-articolo-1-comma-402-della-legge-27-dicembre-2019-n-160">Piattaforma per la notificazione digitale degli atti della pubblica amministrazione di cui all’articolo 1, comma 402, della legge 27 dicembre 2019, n. 160</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../04_Allegato_Domain model/index.html">Allegato 4: Domain model del Punto di accesso telematico</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../04_Allegato_Domain model/index.html#profilo">Profilo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../04_Allegato_Domain model/index.html#servizio">Servizio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../04_Allegato_Domain model/index.html#messaggio">Messaggio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../04_Allegato_Domain model/index.html#notifica">Notifica</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../05_Allegato_Misure minime sicurezza/index.html">Allegato 5: Misure minime di sicurezza</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../05_Allegato_Misure minime sicurezza/index.html#obblighi-del-gestore">Obblighi del Gestore</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../05_Allegato_Misure minime sicurezza/index.html#obblighi-del-soggetto-erogatore">Obblighi del Soggetto erogatore</a></li>
+</ul>
+</li>
+</ul>
+
+        
+      </div>
+
+      <div id="figures-index-mobile" class="figures-index--menu tab-pane sidebar-list--wrapper fade" role="tabpanel" aria-labelledby="figures-index-mobile-tab">
+        None
+      </div>
+
+      <div id="table-index-mobile" class="table-index--menu tab-pane sidebar-list--wrapper fade" role="tabpanel" aria-labelledby="table-index-mobile-tab">
+        None
+      </div>
+
+      <div id="glossary-index-mobile" class="glossary-mobile--menu tab-pane sidebar-list--wrapper fade" role="tabpanel" aria-labelledby="glossary-index-mobile-tab">
+        None
+      </div>
+
+  </div>
+</section>
+        </nav>
+        <div id="doc-content" class="col-content">
+          <!--<div class="doc-content__consultation">
+            <span class="it-icon-edit"></span>
+            in consultazione
+          </div>-->
+          
+            <div class="footer-buttons footer-buttons--prev" role="navigation" aria-label="footer navigation">
+                <a href="07_governance-punto-accesso-telematico.html" class="" title="7. Governance del Punto di accesso telematico" accesskey="p" rel="prev"> Torna a 7. Governance del Punto di accesso telematico</a>
+            </div>
+          
+          
+  <div class="section" id="disposizioni-in-materia-di-sicurezza-e-protezione-dei-dati-personali">
+<h1>8. Disposizioni in materia di sicurezza e protezione dei dati personali<a class="headerlink" href="#disposizioni-in-materia-di-sicurezza-e-protezione-dei-dati-personali" title="Link a questa intestazione">¶</a></h1>
+<div class="section" id="misure-minime-per-lerogazione-di-servizi-in-rete">
+<h2>8.1. Misure minime per l’erogazione di Servizi in rete<a class="headerlink" href="#misure-minime-per-lerogazione-di-servizi-in-rete" title="Link a questa intestazione">¶</a></h2>
+<p>Il Gestore e i Soggetti erogatori DEVONO implementare almeno le misure
+indicate nell’allegato 5, ferma restando la necessaria predisposizione,
+ai sensi dell’art. 32 GDPR e nel rispetto del principio di
+responsabilizzazione, di ogni misura tecnica e organizzativa adeguata
+a garantire un livello di sicurezza adeguato al rischio.</p>
+</div>
+<div class="section" id="trattamenti-e-ruoli-dei-soggetti-coinvolti">
+<h2>8.2. Trattamenti e ruoli dei soggetti coinvolti<a class="headerlink" href="#trattamenti-e-ruoli-dei-soggetti-coinvolti" title="Link a questa intestazione">¶</a></h2>
+<p>Il Gestore agisce come titolare del trattamento unicamente per le
+attività necessarie alla progettazione, allo sviluppo, alla gestione e
+all’implementazione del Punto di accesso telematico, nonché per quelle
+attività che gli sono delegate dagli utenti o che gli sono specificamente
+attribuite dalla legge.</p>
+<p>Nell’ambito dei trattamenti svolti dal e per il tramite del Punto di
+accesso telematico, i Soggetti erogatori agiscono come titolari del
+trattamento (o, in alcuni casi, responsabili del trattamento di altre
+PA) sulla base giuridica corrispondente al Servizio specifico offerto.</p>
+<p>Qualora un Soggetto erogatore agisca come responsabile di un’altra PA,
+mettendo a disposizione i Servizi in rete per conto di quest’ultima,
+lo stesso DEVE aver stipulato un accordo ai sensi dell’art. 28 GDPR.</p>
+<p>Con riferimento ai dati trattati per la finalità di erogazione dei
+Servizi in rete, il Gestore agisce in qualità di responsabile del
+trattamento (o, se del caso, sub-responsabile del trattamento), sulla
+base di un accordo ai sensi dell’art. 28 GDPR. A sua volta il Gestore
+PUÒ avvalersi di terzi sub-responsabili nel rispetto di quanto previsto
+dall’art. 28 GDPR.</p>
+<p>In ottica di data protection by design e by default, il Gestore e il
+Soggetto erogatore POSSONO concordare misure organizzative aggiuntive
+con riferimento alla natura, al contesto e ai trattamenti connessi a
+uno specifico Servizio in rete. Qualora un Soggetto erogatore offra
+diverse tipologie di Servizi in rete, le misure POSSONO essere
+diversificate anche rispetto ai singoli Servizi in rete. In tali casi,
+le misure concordate integreranno l’accordo di cui all’art. 28 GDPR e
+saranno considerate come istruzioni rese al responsabile del trattamento.</p>
+<p>Le comunicazioni di dati personali, diversi dai dati di cui agli artt.
+9 e 10 GDPR, da un Soggetto erogatore a un’altra PA ovvero al o dal
+Gestore, sono ammesse se necessarie ai fini dell’erogazione di Servizi
+in rete richiesti dai Cittadini al Gestore o al Soggetto erogatore,
+previo rilascio di adeguata informativa ai sensi degli artt. 13 e 14
+GDPR.</p>
+</div>
+<div class="section" id="misure-di-garanzia-per-le-particolari-categorie-di-dati">
+<h2>8.3. Misure di garanzia per le particolari categorie di dati<a class="headerlink" href="#misure-di-garanzia-per-le-particolari-categorie-di-dati" title="Link a questa intestazione">¶</a></h2>
+<p>Ai sensi dell’art. 9, paragrafo  2, lettera g) del GDPR e dell’art. 2
+sexies del Codice Privacy, il Gestore, al fine di porre in essere le
+attività di progettazione, sviluppo, gestione e implementazione del
+Punto di accesso telematico nonché altre attribuite dalla legge o
+delegate dagli utenti, può trattare anche particolari categorie di dati
+personali mediante misure appropriate e specifiche per tutelare i
+diritti fondamentali e gli interessi dell’interessato. Tali particolari
+categorie di dati sono trattate sulla base dell’interesse pubblico il
+cui perseguimento è affidato al Gestore dalla legge e, in particolare,
+dai commi 2 e 3 dell’art 8 del D.lgs. 135/2018 e dall’art. 64 bis CAD.</p>
+<p>In particolare, possono essere trattati tramite il Punto di accesso
+telematico i dati relativi allo stato di salute, per attività di raccolta,
+elaborazione e comunicazione ad altre PA, nel rispetto delle seguenti
+misure di garanzia dei diritti degli interessati:</p>
+<ul class="simple">
+<li>gli utenti finali DEVONO ricevere le informazioni di cui agli art.
+13 e 14 del GDPR prima del trattamento;</li>
+<li>tali particolari categorie di dati NON DEVONO sono in nessun caso
+essere oggetto di diffusione, in conformità a quanto previsto
+dall’art. 2 septies, paragrafo 8 del Codice Privacy;</li>
+<li>eventuali comunicazioni da una PA al Gestore o a un’altra PA DEVONO
+essere autorizzate dall’interessato, ove non diversamente previsto
+dalla legge o da atti regolamentari;</li>
+<li>il trattamento DEVE  svolgersi unicamente laddove sia indispensabile
+per l’erogazione dei Servizi in rete forniti dagli Soggetti erogatori
+ovvero di servizi altrimenti richiesti dagli interessati al Gestore.</li>
+</ul>
+<p>Per il trattamento di tali particolari categorie di dati DEVONO, inoltre,
+essere adottate dai Soggetti erogatori e dal Gestore:</p>
+<ul class="simple">
+<li>misure di autenticazione e autorizzazione dei soggetti designati per
+il  trattamento ai sensi dell’art. 2-quaterdecies del Codice privacy,
+in funzione dei ruoli ricoperti e delle esigenze di accesso;</li>
+<li>procedure per la verifica periodica della qualità e coerenza delle
+credenziali di autenticazione e dei profili di autorizzazione assegnati
+ai soggetti designati per il trattamento;</li>
+<li>sistemi di log o sistemi analoghi che consentano di controllare gli
+accessi ai database e di rilevare anomalie;</li>
+<li>precise istruzioni consegnate ai soggetti designati per il trattamento,
+prima del relativo svolgimento.</li>
+</ul>
+<p>In ogni caso, laddove i Soggetti erogatori trattino categorie particolari
+di dati personali, al fine di offrire i Servizi in rete tramite il punti
+di accesso telematico, questi DEVONO:</p>
+<ul class="simple">
+<li>individuare le particolari categorie di dati indispensabili
+all’erogazione del Servizio tramite IO, secondo quanto previsto dal
+precedente 8.1 Misure minime per l’erogazione di Servizi in rete;</li>
+<li>darne informazione al Gestore;</li>
+<li>non comunicare tali particolari categorie di dati nell’oggetto del
+messaggio;</li>
+<li>utilizzare gli strumenti messi a disposizione dal Gestore per
+classificare un contenuto come contenente categorie particolari di
+dati, al fine di differenziare le modalità di trattamento dei
+predetti dati all’interno del Punto di accesso telematico, in
+conformità ai principi di privacy by default e by design;</li>
+<li>laddove presenti, utilizzare gli altri strumenti messi a disposizione
+dal Gestore per contrassegnare i messaggi o i Servizi dal contenuto
+sensibile.</li>
+</ul>
+</div>
+<div class="section" id="necessita-e-proporzionalita-del-trattamento">
+<h2>8.4. Necessità e proporzionalità del trattamento<a class="headerlink" href="#necessita-e-proporzionalita-del-trattamento" title="Link a questa intestazione">¶</a></h2>
+<div class="section" id="minimizzazione">
+<h3>8.4.1. Minimizzazione<a class="headerlink" href="#minimizzazione" title="Link a questa intestazione">¶</a></h3>
+<p>I Soggetti erogatori, nel mettere a disposizione i propri Servizi in
+rete, DEVONO  ridurre il trattamento ai dati strettamente necessari
+per la fornitura dei Servizi stessi.</p>
+<p>A tal fine, i Soggetti erogatori, prima di mettere in produzione i
+propri Servizi in rete, DEVONO:</p>
+<ul class="simple">
+<li>fare una ricognizione dei dati personali che vengono trattati per
+ciascuno di esso;</li>
+<li>individuare le relative categorie, la finalità per cui sono trattati
+e la base giuridica;</li>
+<li>assicurarsi che l’informativa privacy che verrà messa a disposizione
+degli interessati rispecchi l’effettivo trattamento che verrà
+effettuato tramite l’App IO, come specificato al 8.4.4 Trasparenza e
+rispetto dell’esercizio dei diritti degli utenti finali.</li>
+</ul>
+<p>In particolare, i Soggetti erogatori DEVONO:</p>
+<ul class="simple">
+<li>comprovare, nel rispetto del principio di responsabilizzazione, che
+i dati personali siano sufficienti, pertinenti, necessari e non
+eccessivi rispetto alla finalità perseguita;</li>
+<li>comprovare, nel rispetto del principio di responsabilizzazione, che
+i dati personali non rivelino (direttamente o indirettamente)
+l’origine razziale o etnica, le opinioni politiche, filosofiche o
+religiose, l’appartenenza sindacale, le informazioni sulla salute o
+le informazioni sulla vita sessuale di un individuo, tranne che nei
+casi in cui sia strettamente indispensabile per l’erogazione del
+Servizio;</li>
+<li>comprovare che i dati personali non si riferiscono a reati, sentenze
+penali o misure di sicurezza, salvo che ciò sia espressamente
+previsto da una norma di legge, ovvero, dove previsto dalla legge,
+di regolamento;</li>
+<li>evitare la raccolta di dati personali eccessivi o ulteriori rispetto
+alla finalità dei Servizi in rete;</li>
+<li>istruire i soggetti designati  del trattamento a limitare il
+trattamento di dati personali nel contesto dell’invio di messaggi e
+comunicazioni ai cittadini, secondo un principio di stretta necessità;</li>
+<li>limitare la trasmissione di documenti elettronici contenenti dati
+personali allo stretto necessario;</li>
+<li>adempiere gli obblighi informativi previsti dal GDPR, come specificato
+al 8.4.4 Trasparenza e rispetto dell’esercizio dei diritti degli utenti finali</li>
+</ul>
+</div>
+<div class="section" id="limitazione-dei-tempi-di-conservazione">
+<h3>8.4.2. Limitazione dei tempi di conservazione<a class="headerlink" href="#limitazione-dei-tempi-di-conservazione" title="Link a questa intestazione">¶</a></h3>
+<p>I Soggetti erogatori, al fine di garantire il rispetto del principio
+di limitazione della conservazione e per ridurre l’impatto dei rischi,
+DEVONO assicurarsi che i dati personali non vengano mantenuti per più
+di quanto necessario. In particolare, i Soggetti erogatori DEVONO:</p>
+<ul class="simple">
+<li>definire periodi di conservazione dei dati personali limitati nel
+tempo e appropriati alle finalità del trattamento;</li>
+<li>implementare misure tecniche e/o organizzative che consentano di
+rilevare la scadenza del periodo di conservazione;</li>
+<li>implementare misure tecniche e/o organizzative che consentano la
+cancellazione dei dati personali a scadenza del periodo di
+conservazione e assicurarsi che il metodo scelto per l’eliminazione
+sia appropriato ai rischi legati alle libertà civili e la privacy
+dei soggetti interessati;</li>
+<li>eliminare i dati personali quando il periodo di conservazione
+definito nella relativa procedura scade.</li>
+</ul>
+<p>Al fine di assistere i Soggetti erogatori nell’assicurare il rispetto
+di tali disposizioni ed evitare rischi connessi a duplicazioni di dati
+personali, il Gestore conserva i dati dei Soggetti erogatori sui propri
+sistemi per un periodo di tempo limitato, individuato nell’accordo ex
+art. 28 GDPR, che sia ragionevole e che consenta un’efficiente gestione
+tecnologica del Punto di accesso telematico.</p>
+</div>
+<div class="section" id="misure-di-responsabilizzazione-cd-principio-di-accountability">
+<h3>8.4.3. Misure di responsabilizzazione - cd. principio di “accountability”<a class="headerlink" href="#misure-di-responsabilizzazione-cd-principio-di-accountability" title="Link a questa intestazione">¶</a></h3>
+<p>Il Gestore DEVE predisporre una valutazione di impatto sulla protezione
+dei dati ai sensi dell’art. 35 del GDPR (“DPIA”) e presentarla al Garante
+per la protezione dei dati personali ai sensi dell’art. 2-quinquiesdecies
+del Codice Privacy.</p>
+<p>Tale DPIA è messa a disposizione dei Soggetti erogatori e contiene
+un’appendice sui trattamenti che gli stessi possono facoltativamente
+utilizzare come ausilio per completare la propria valutazione con
+riguardo ai trattamenti rispetto ai quali sono titolari ulteriori
+rispetto a quelli coperti dalla DPIA del Gestore e non oggetto di
+autonoma DPIA. Il completamento di tale appendice permette ai Soggetti
+erogatori di documentare la messa a disposizione dei propri Servizi in
+rete tramite il Punto di accesso telematico, nel rispetto del principio
+di responsabilizzazione.</p>
+<p>I Soggetti erogatori consultano il Garante per la protezione dei dati
+personali ai sensi dell’art. 2-quinquiesdecies del Codice Privacy e
+degli art. 35 e 36 del GDPR unicamente qualora la valutazione d’impatto
+sui propri trattamenti, ulteriori rispetto a quelli oggetto della DPIA
+del Gestore e distinti dal mero utilizzo del Punto di accesso telematico,
+indichi un rischio residuo elevato, in assenza di misure adottate dal
+titolare del trattamento per attenuare tale rischio, nonostante le misure
+già contenute nella DPIA del Gestore e nelle presenti Linee guida e non
+coperto da queste ultime.</p>
+<p>I Soggetti erogatori DEVONO, inoltre, aggiornare il proprio registro
+delle attività di trattamento, ai sensi dell’art. 30 del GDPR, indicando
+le attività svolte tramite il Punto di accesso telematico e i relativi
+dati trattati.</p>
+</div>
+<div class="section" id="trasparenza-e-rispetto-dellesercizio-dei-diritti-degli-utenti-finali">
+<h3>8.4.4. Trasparenza e rispetto dell’esercizio dei diritti degli utenti finali<a class="headerlink" href="#trasparenza-e-rispetto-dellesercizio-dei-diritti-degli-utenti-finali" title="Link a questa intestazione">¶</a></h3>
+<p>La trasparenza è una condizione di garanzia delle libertà individuali
+nonché dei diritti civili, politici e sociali.</p>
+<p>I Soggetti erogatori, pertanto, DEVONO fornire, mediante il Punto di
+accesso telematico, un’informativa completa dei trattamenti relativi
+ai Servizi in rete.</p>
+<p>Se i Soggetti erogatori agiscono in qualità di responsabili del
+trattamento per conto di un’altra PA, si assicurano che agli interessati
+sia fornita un’adeguata informativa comprensiva di tutti i requisiti
+di cui agli art. 13 e 14 GDPR.</p>
+<p>I Soggetti erogatori DEVONO adottare misure organizzative adeguate a
+garantire l’esercizio dei diritti degli interessati rispetto ai dati
+trattati per l’erogazione dei Servizi in rete. A tal fine, i Soggetti
+erogatori DEVONO fornire un recapito che il Gestore PUÒ contattare
+laddove riceva una richiesta di esercizio dei diritti per i trattamenti
+di cui è responsabile e che rimane a disposizione degli utenti
+nell’utilizzo del Punto di accesso telematico.</p>
+<p>I Soggetti erogatori gestiscono le richieste di esercizio di diritti
+di cui agli artt. 15 e 20 del GDPR in autonomia, valutandone limiti e
+confini e chiedendo al Gestore supporto laddove necessario e senza che
+ciò possa comportare sforzi irragionevoli. Il Gestore PUÒ offrire, in
+un’ottica di privacy by design, funzionalità atte a garantire un più
+facile esercizio dei diritti degli interessati, qualora ciò non comporti
+uno sforzo irragionevole.</p>
+</div>
+<div class="section" id="responsabili-del-trattamento-e-trasferimenti-dei-dati-personali">
+<h3>8.4.5. Responsabili del trattamento e trasferimenti dei dati personali<a class="headerlink" href="#responsabili-del-trattamento-e-trasferimenti-dei-dati-personali" title="Link a questa intestazione">¶</a></h3>
+<p>Ai fini della fornitura del Punto di accesso telematico, il Gestore
+PUÒ fare ricorso a soggetti terzi, opportunamente nominati
+sub)responsabili del trattamento secondo le modalità stabilite all’art.
+28 del GDPR.</p>
+<p>Il Gestore DEVE privilegiare fornitori situati sul territorio nazionale
+e dell’Unione Europa. In ogni caso, laddove possibile, il Gestore DEVE
+istruire i responsabili del trattamento sulla necessità di conservare
+i dati all’interno dell’Unione Europea.</p>
+<p>Laddove non sia possibile trovare un (sub)responsabile del trattamento
+nell’Unione Europea che offra garanzie sufficienti a mettere in atto
+misure tecniche e organizzative sufficienti per soddisfare i requisiti
+richiesti dal GDPR e per garantire la tutela dell’interessato, il Gestore
+PUÒ ricorrere a (sub)responsabili situati in paesi terzi.</p>
+<p>Il Gestore DEVE effettuare una valutazione preventiva dei propri
+fornitori e, in ogni caso, rispettare le misure previste dal Capo V
+del GDPR. Laddove necessario, il Gestore pone in essere misure
+contrattuali necessarie (ad esempio, clausole contrattuali tipo) anche
+per conto dei Soggetti erogatori.</p>
+</div>
+<div class="section" id="dati-di-log">
+<h3>8.4.6. Dati di log<a class="headerlink" href="#dati-di-log" title="Link a questa intestazione">¶</a></h3>
+<p>Al fine di garantire la sicurezza del trattamento e svolgere attività
+di sviluppo e gestione, nonché di rispondere a eventuali richieste dei
+Soggetti erogatori relativamente alle attività svolte tramite il punto
+di accesso telematico, il Gestore DEVE raccogliere dati di log
+relativamente alle richieste inviate da ciascun Soggetto erogatore e li
+DEVE conservare per un tempo predeterminato e ragionevole, salvo che
+tempi di conservazione più lunghi siano necessari per la difesa o
+l’accertamento di un diritto in giudizio.</p>
+<p>Le presenti Linee guida non pregiudicano altre normative, linee guida
+o regolamenti che comportano obblighi di conservazioni di dati di log
+diversi da quelli oggetto del presente paragrafo.</p>
+</div>
+</div>
+<div class="section" id="sicurezza-del-trattamento">
+<h2>8.5. Sicurezza del trattamento<a class="headerlink" href="#sicurezza-del-trattamento" title="Link a questa intestazione">¶</a></h2>
+<div class="section" id="principi">
+<h3>8.5.1. Principi<a class="headerlink" href="#principi" title="Link a questa intestazione">¶</a></h3>
+<p>In conformità all’art. 32 e al Considerando 83 del GDPR, il Gestore e
+i Soggetti erogatori, in qualità di titolari del trattamento e/o
+responsabili del trattamento, sono tenuti ad adottare tutte le misure
+tecniche e organizzative adeguate a garantire un livello di sicurezza
+adeguato al rischio, che comprendono, tra le altre, se del caso:</p>
+<ul class="simple">
+<li>la pseudonimizzazione e la cifratura dei dati personali;</li>
+<li>la capacità di assicurare su base permanente la riservatezza,
+l’integrità, la disponibilità e la resilienza dei sistemi e dei
+servizi di trattamento;</li>
+<li>la capacità di ripristinare tempestivamente la disponibilità e
+l’accesso dei dati personali in caso di incidente fisico o tecnico;</li>
+<li>una procedura per testare, verificare e valutare regolarmente
+l’efficacia delle misure tecniche e organizzative al fine di garantire
+la sicurezza del trattamento.</li>
+</ul>
+<p>I principi in materia di sicurezza del trattamento si esplicitano nelle
+seguenti “best practices” per il trattamento dei dati personali, che
+si aggiungono alle misure organizzative implementate per garantire il
+rispetto dei principi in materia di trattamento di dati personali di
+cui ai precedenti paragrafi.</p>
+</div>
+<div class="section" id="partizionamento-dei-dati-personali">
+<h3>8.5.2. Partizionamento dei dati personali<a class="headerlink" href="#partizionamento-dei-dati-personali" title="Link a questa intestazione">¶</a></h3>
+<p>Il Gestore e i Soggetti erogatori DEVONO ridurre la possibilità che i
+dati personali possano essere correlati e che possa verificarsi una
+violazione dei dati personali. In particolare sono tenuti a:</p>
+<ul class="simple">
+<li>identificare i dati personali utili alle finalità perseguite e
+utilizzare il set minimo di dati necessari, anche nell’ambito del
+singolo processo, in virtù del principio di minimizzazione;</li>
+<li>separare i dati necessari per  ogni processo in modo logico;</li>
+<li>comprovare regolarmente che i dati personali siano partizionati in
+modo efficace e che i destinatari e le interconnessioni non siano
+stati associati.</li>
+</ul>
+</div>
+<div class="section" id="cifratura-dei-dati-personali">
+<h3>8.5.3. Cifratura dei dati personali<a class="headerlink" href="#cifratura-dei-dati-personali" title="Link a questa intestazione">¶</a></h3>
+<p>Il Gestore e i Soggetti erogatori DEVONO trattare i dati implementando
+misure in grado di rendere incomprensibili i dati personali a chiunque
+non sia autorizzato ad accedervi:</p>
+<ul class="simple">
+<li>determinando le componenti critiche su cui applicare misure di
+crittografia (“at rest”, es: dischi rigidi, file, ecc.; “in transit”,
+es: trasferimento da/verso un database, canali di comunicazione)
+in base a:<ul>
+<li>forma/posizione in cui sono memorizzati/resi disponibili i dati
+personali;</li>
+<li>rischi individuati;</li>
+<li>prestazioni richieste;</li>
+</ul>
+</li>
+<li>scegliendo il tipo di crittografia (simmetrica o asimmetrica) in base
+al contesto e ai rischi individuati;</li>
+<li>adottando soluzioni di crittografia basate su algoritmi pubblici
+notoriamente forti;</li>
+<li>definendo ulteriori misure per garantire la disponibilità, l’integrità
+e la riservatezza delle informazioni.</li>
+</ul>
+</div>
+<div class="section" id="anonimizzazione-dei-dati-personali">
+<h3>8.5.4. Anonimizzazione dei dati personali<a class="headerlink" href="#anonimizzazione-dei-dati-personali" title="Link a questa intestazione">¶</a></h3>
+<p>Laddove possibile, il Gestore e i Soggetti erogatori DEVONO eliminare
+le caratteristiche che identificano i dati personali. In particolare
+sono tenuti a:</p>
+<ul class="simple">
+<li>determinare ciò che deve essere anonimo in base al contesto, alla
+forma in cui vengono memorizzati i dati personali (compresi i campi
+del database o estratti dai testi) e ai rischi individuati;</li>
+<li>anonimizzare permanentemente i dati che richiedono tale criterio di
+protezione in base alla forma dei dati (inclusi database e record
+testuali) e ai rischi individuati;</li>
+<li>se i dati non possono essere anonimizzati in modo permanente,
+scegliere strumenti (inclusi la cancellazione parziale, la cancellazione,
+la ricerca di hashing e l’indice) che rispondano innanzitutto alle
+esigenze funzionali.</li>
+</ul>
+<div class="forum-italia-comments" data-topic="23487" data-scope="document" ></div></div>
+</div>
+</div>
+
+
+          
+            <div class="footer-buttons footer-buttons--next" role="navigation" aria-label="footer navigation">
+                  <a href="../01_Allegato_Procedura adesione/index.html" class="" title="Allegato 1: Procedura di adesione dei Soggetti erogatori al Punto di accesso telematico" accesskey="n" rel="next">Allegato 1: Procedura di adesione dei Soggetti erogatori al Punto di accesso telematico</a>
+              </div>
+            
+          </div>
+
+        </div>
+      </div>
+  </div>
+  <footer class="footer container-fluid container-fluid--desktop">
+  <div class="px-3 pt-md-3 pb-md-2 mx-md-5 mb-4 mb-md-0">
+    <div class="row align-items-center d-flex">
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-4 pt-sm-5">
+        <a href="http://teamdigitale.governo.it/" target="_blank" class="d-inline-block" rel="noopener">
+          <div class="d-flex align-items-center">
+            <div class="px-2">
+              <img class="team-logo--icon" src="../../_static/images/team-digitale-logo.svg" alt="Team per la Trasformazione Digitale">
+            </div>
+            <div class="px-2 border-white border-left team-logo--text text-white">
+              Team per la Trasformazione Digitale
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-lg-4">
+        <span class="d-block m-2 in-collaboration">in collaborazione con</span>
+        <a href="https://www.agid.gov.it/" target="_blank" class="d-inline-block" rel="noopener">
+          <div class="d-flex align-items-center">
+            <div class="px-2">
+              <img class="agid-logo--icon" src="../../_static/images/agid-logo.svg" alt="Agenzia per l'Italia Digitale">
+            </div>
+            <span class="agid-logo--separator border-white border-left"></span>
+            <div class="px-2 agid-logo--text text-white">
+              Agenzia per l'Italia Digitale
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-12 col-lg-4 pt-4 pt-sm-5">
+        <div class="text-center text-lg-right social d-flex align-items-center justify-content-center justify-content-lg-end flex-column flex-lg-row">
+          <div class="mr-lg-1 mb-2 mb-lg-0">Seguici su</div>
+          <div>
+            <a href="https://github.com/italia/" class="d-inline-flex small-prints mx-1 social__link"><i class="d-inline-block it-github"></i></a>
+            <a href="https://twitter.com/teamdigitaleIT" class="d-inline-flex small-prints mx-1 social__link"><i class="d-inline-block it-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/teamdigitale/" class="d-finline-lex small-prints mx-1 social__link"><i class="d-inline-block it-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/row-->
+
+    <div class="row pb-4 colophon mt-md-5 mt-sm-3 pt-3 pt-sm-2">
+      <ul class="col list-inline small">
+        
+        <li class="list-inline-item">
+          <strong><a class="footer-menu__link text-light-blue small-prints" href="/privacy-policy/">Privacy policy</a></strong>
+        </li>
+        
+        <li class="list-inline-item">
+          <strong><a class="footer-menu__link text-light-blue small-prints" href="/cookies-policy">Cookie policy</a></strong>
+        </li>
+        
+        <li class="list-inline-item">
+          <strong><a class="footer-menu__link text-light-blue small-prints" href="/note-legali">Note legali</a></strong>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</footer>
+  <script type="text/javascript">
+var t = {
+  this : "it",
+  locale : "it_IT",
+  about_these_documents : "Informazioni su questi documenti",
+  active_lang : "lingua attiva",
+  cookiebar_accept : "Accetto",
+  cookiebar_msg : "Questo sito utilizza cookie tecnici, analytics e di terze parti. Proseguendo nella navigazione accetti l’utilizzo dei cookie.",
+  cookiebar_privacy_policy : "Cookie policy",
+  copyright : "Copyright",
+  documents : "Documentazione",
+  download : "Scarica",
+  footer_link_privacy_policy : "Privacy policy",
+  footer_link_cookies : "Cookie policy",
+  footer_link_legal_notes : "Note legali",
+  go_to : "Vai a",
+  index : "Indice",
+  last_updated : "Più recenti",
+  most_viewed_this_month : "Più visti questo mese",
+  navigation_menu_label : "Menu di navigazione",
+  navigation_menu_esc : "esci dalla navigazione",
+  search : "Cerca",
+  search_form_label : "Cerca nel documento",
+  search_form_off : "disattiva il form di ricerca",
+  search_form_on : "attiva il form di ricerca",
+  search_form_start : "avvia la ricerca",
+  search_results : "Risultati della ricerca",
+  search_no_results : "La tua ricerca non ha prodotto documenti. Assicurati di non aver commesso errori di digitazione.",
+  site_subtitle : "Documenti pubblici, digitali.",
+  site_title : "Docs Italia",
+  share_msg : "condividi",
+  skiplink_goto_content : "vai ai contenuti",
+  skiplink_goto_navigation : "vai alla navigazione del sito",
+  toggle_menu_label : "accedi al menu",
+  version : "versione",
+  compare : "Confronta",
+  copy_link : "copia link",
+  copied_link : "link copiato",
+  see_actions : "vedi azioni",
+  other_actions : "altre azioni",
+  comments : "commenti",
+  back_to_text : "torna al testo",
+  glossary_empty : "informazione non trovata",
+  glossary : "glossario",
+  go_to_glossary : "vai al glossario",
+  deepening : "approfondimento",
+  example : "esempio",
+  must : "si deve",
+  must_not : "non si deve",
+  should : "si dovrebbe",
+  should_not : "non si dovrebbe",
+  may : "si può",
+  use : "usa",
+  use_not : "non usare",
+  consultation : "consultazione",
+  show_more : "mostra tutto",
+  show_less : "mostra meno",
+  content_index : "indice dei contenuti",
+  table_index : "indice delle tabelle",
+  figures_index : "indice delle figure",
+  figures : "figure",
+  tables : "tabelle",
+  contents : "contenuti",
+  in_consultation : "in consultazione",
+  indices_and_glossary : "indici e glossario",
+  note : "nota",
+  no_description : "nessuna descrizione",
+  no_content : "nessuna sezione",
+  no_glossary : "nessun glossario",
+  no_figures : "nessuna figura",
+  no_tables : "nessuna tabella",
+  summary : "sommario",
+  project : "Progetto",
+  administration : "Amministrazione",
+  info : "Informazioni",
+  related : "Documenti correlati",
+  actions : "Azioni",
+  tags : "Tag",
+  view_source : "Sorgente",
+  previous : "precedente",
+  next : "successivo",
+  in_collaboration_with : "in collaborazione con",
+  follow_us : "seguici su",
+  header_link_trasformazione : "Piano Triennale",
+  header_link_piattaforme : "Piattaforme",
+  header_link_software : "Software",
+  header_link_api : "API",
+  header_link_community : "Le community",
+  header_link_developers : "Developers",
+  header_link_design : "Designers",
+  header_link_tools : "Gli strumenti",
+  header_link_forum : "Forum",
+  header_link_docs : "Docs",
+  header_link_github : "GitHub",
+  header_link_secondary_who_we_are : "Chi siamo",
+  header_link_projects : "Progetti",
+  header_link_documents : "Documenti",
+  header_link_administrations : "Amministrazioni",
+  header_link_whatis : "Che cos'è",
+}
+</script>
+  <a href="#" aria-hidden="true" data-attribute="return-to-top" class="return-to-top">
+  <i class="it-collapse"></i>
+</a>
+  
+  <script type="text/javascript">
+var PRODUCTION_DOMAIN = 'localhost';
+var DOCSITALIA_DATA = {
+  publisher_slug: 'organizzazione-demo',
+  publisher_project_slug: 'progetto-demo'
+}
+
+LOCAL = true;
+READTHEDOCS_DATA = {
+  project: 'demo-document',
+  version: 'bozza',
+  language: 'it',
+  api_host: '//' + PRODUCTION_DOMAIN
+}
+
+var DOCUMENTATION_OPTIONS = {
+    URL_ROOT: '../../',
+    VERSION: 'Bozza in consultazione',
+    LANGUAGE: 'it',
+    COLLAPSE_INDEX: false,
+    FILE_SUFFIX: '.html',
+    HAS_SOURCE: true,
+    SOURCELINK_SUFFIX: '.txt'
+};
+</script>
+<script src="../../_static/js/theme.js"></script>
+<script type="text/javascript" src="../../_static/underscore.js"></script>
+<script type="text/javascript" src="../../_static/doctools.js"></script>
+<script type="text/javascript" src="../../_static/translations.js"></script>
+  
+  <script type="text/javascript">
+  <!-- Google analytics -->
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+  $(document).ready(function() {
+    var sendGaPageview = function() {
+      ga('create', '', 'auto');
+      ga('set', 'anonymizeIp', true);
+      ga('send', 'pageview');
+      
+    };
+    if ($.fn['cookiebar'].Constructor._getCookieEU()) {
+      sendGaPageview();
+    } else {
+      $(document).on('close.bs.cookiebar', sendGaPageview);
+    }
+  });
+  <!-- End Google analytics -->
+  <!-- Matomo -->
+  /*
+  var _paq = _paq || [];
+  _paq.push(['setSiteId', '']);
+  (function () {
+    var u = '//italia.piwikpro.com/';
+    _paq.push(['setTrackerUrl', u + 'piwik.php']);
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+  })();
+
+  $(document).ready(function() {
+    var sendMatomoPageview = function() {
+      _paq.push(['setDocumentTitle', document.domain + '/' + document.title]);
+      _paq.push(['enableLinkTracking']);
+      _paq.push(['setDoNotTrack', 1]);
+      _paq.push(['trackPageView']);
+    };
+    if ($.fn['cookiebar'].Constructor._getCookieEU()) {
+      sendMatomoPageview();
+    } else {
+      $(document).on('close.bs.cookiebar', sendMatomoPageview);
+    }
+  });*/
+  <!-- End Matomo -->
+</script>
+  
+    <div class="cookiebar bg-dark p-4 hide" aria-hidden="true">
+  <div class="container">
+    <div class="row d-flex align-items-center">
+      <div class="col-12 col-md-7">
+        <span class="text-white">Questo sito utilizza cookie tecnici, analytics e di terze parti. Proseguendo nella navigazione accetti l’utilizzo dei cookie.</span>
+      </div>
+      <div class="col-12 col-md-5 mt-2 mt-md-0 text-right">
+        <a class="btn btn-link" href="/cookies-policy/">Cookie policy</a>
+        <button class="btn btn-sm btn-primary mr-2" data-accept="cookiebar">Accetto</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  
+  <div class="modal fade modal-sm-full" id="document-info" tabindex="-1" role="dialog" aria-labelledby="document-title" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content rounded">
+      <div class="modal-header">
+        <h4 class="modal-title" id="document-title">Linee guida per accesso telematico ai servizi della Pubblica Amministrazione</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Linee guida per accesso telematico ai servizi della Pubblica Amministrazione</p>
+        <p class="text-sans-serif">
+          <i class="docs-icon-project font-weight-bold"></i>
+          <span class="font-weight-bold ml-1 align-middle">Progetto:</span>
+          <a href="/organizzazione-demo/progetto-demo" class="align-middle">
+            Progetto demo
+          </a>
+        </p>
+        <p class="text-sans-serif">
+          <i class="docs-icon-publisher font-weight-bold"></i>
+          <span class="font-weight-bold ml-1 align-middle">Amministrazione:</span>
+          <a href="/organizzazione-demo/" class="align-middle">
+            Organizzazione demo
+          </a>
+        </p>
+        <div class="d-flex text-sans-serif my-4">
+          <div class="d-flex font-weight-bold align-items-center"><span class="mr-2">Tag:</span></div>
+          <div class="d-flex flex-wrap">
+            
+            <span class="border border-primary rounded m-1 py-1 px-2 tag"><a href="#">demo</a></span>
+            
+            <span class="border border-primary rounded m-1 py-1 px-2 tag"><a href="#">docs italia</a></span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" tabindex="-1" role="dialog" id="document-actions" aria-hidden="true">
+  <div class="modal-dialog mt-5" role="document">
+     <div class="modal-content rounded">
+        <div class="modal-body p-1">
+          <div class="document-actions d-flex flex-column flex-md-row justify-content-around w-100 p-2 p-md-0 text-blue">
+  <div class="dropdown p-3 px-md-2 py-md-0 d-flex flex-wrap">
+    <a class="btn dropdown-toggle p-2 flex-grow-1 text-left" href="#" id="downloads-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="docs-icon-download align-middle"></span>
+      <span class="align-middle">Scarica</span>
+    </a>
+    <div class="dropdown-menu w-100" aria-labelledby="downloads-dropdown" aria-disabled="false">
+      <div class="link-list-wrapper">
+        <ul class="link-list">
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  <div class="p-3 px-md-2 py-md-0">
+    <a href="#" role="button" class="btn p-2 disabled" aria-disabled="true">
+        <span class="docs-icon-github"></span>
+        <span class="align-middle">Sorgente</span>
+    </a>
+  </div>
+</div>
+        </div>
+     </div>
+  </div>
+</div>
+
+  
+</body>
+</html>
